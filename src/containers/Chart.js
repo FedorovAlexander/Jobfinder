@@ -7,7 +7,7 @@ const data = require('../data/vacancies.json');
 const assets = require('../assets.js');
 
 const dataComponent = data.map((item, i) => {
-  return <Card position={item.position} company={item.companyName} salary={item.salary} status={item.status} cardImgSrc={assets.trashIcon} />
+  return <Card key={i.toString()} position={item.position} company={item.companyName} salary={item.salary} status={item.status} cardImgSrc={assets.trashIcon} />
 
 })
 const Chart = () => {
