@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
+import React from 'react';
 import LinkWithImg from '../components/LinkWithImg';
 import './Sidebar.css';
 
