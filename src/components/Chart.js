@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import Card from '../components/Card';
+import Pagination from '../components/Pagination';
 import './Chart.css';
 
 const data = require('../data/vacancies.json');
@@ -14,6 +16,8 @@ const Chart = () => {
   return (
     <section className="chart">
       <h1 className="chart__title">Chart</h1>
+    <Pagination />
+
     {dataComponent}
     </section>
   );
