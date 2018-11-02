@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
-import Header from './containers/Header';
-import Sidebar from './containers/Sidebar';
-import Content from './containers/Content';
+import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
+import Content from '../components/Content';
 import './App.css';
 
 class App extends Component {
