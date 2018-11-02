@@ -8,6 +8,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid rgb(236, 233, 242);
+  z-index: 99;
 }
 
 .header__link {
@@ -19,7 +20,8 @@
   font-size: 12px;
   text-align: left;
   flex: 12;
-  margin-left: 100px;
+  margin-left: 105px;
+  padding-left: 15px;
 }
 
 .header__link:nth-child(2) {
@@ -30,6 +32,6 @@
 
 .header__img {
   position: absolute;
-  left: -28px;
+  left: -13px;
   bottom: -3px;
 }
