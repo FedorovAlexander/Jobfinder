@@ -5,12 +5,31 @@
   width: 100%;
   background-color: #fff;
   position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(236, 233, 242);
 }
 
 .header__link {
+  position: relative;
   text-decoration: none;
   color: #180045;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
+  text-align: left;
+  flex: 12;
+  margin-left: 100px;
+}
+
+.header__link:nth-child(2) {
+  flex: 1;
+  min-width: 70px;
+  margin-right: 25px;
+}
+
+.header__img {
+  position: absolute;
+  left: -28px;
+  bottom: -3px;
 }
