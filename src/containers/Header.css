@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #180045;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.link {
+  font-family: Lato;
+  text-decoration: none;
+  color: #180045;
+  flex: 1;
+}
+
+.link:nth-child(2) {
+  text-align: right;
+}

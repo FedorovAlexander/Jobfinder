@@ -1,0 +1,12 @@
+.sidebar {
+  background-color: #180045;
+  color: #fff;
+  min-height: 100vh;
+  position: fixed;
+  max-width: 40px;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: #fff;
+}
