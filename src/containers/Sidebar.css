@@ -3,10 +3,28 @@
   color: #fff;
   min-height: 100vh;
   position: fixed;
-  max-width: 40px;
+  min-width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .sidebar__link {
   text-decoration: none;
   color: #fff;
+  padding-right: 2px;
+}
+
+.sidebar__link--startpage {
+  flex: 10;
+}
+
+.sidebar__link--logout {
+  flex: 1;
+}
+
+.sidebar__link--settings {
+  flex: 1;
 }
