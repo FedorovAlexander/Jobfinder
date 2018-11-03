@@ -18,7 +18,7 @@ import './App.css';
 //   }
 // }
 
-class App extends React.Component {
+class App extends Component {
     constructor() {
         super();
 
@@ -47,9 +47,7 @@ class App extends React.Component {
                               <Header />
                               <Sidebar />
                              <Content />
-                        {/* {this.state.pageOfItems.map(item =>
-                            <div key={item.id}>{item.name}</div>
-                        )} */}
+
                         <Pagination items={this.state.exampleItems} onChangePage={this.onChangePage} />
                     </div>
                 </div>
