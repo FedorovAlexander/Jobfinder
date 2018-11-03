@@ -58,7 +58,7 @@ class Pagination extends Component {
         currentPage = currentPage || 1;
 
         // default page size is 10
-        pageSize = pageSize || 10;
+        pageSize = pageSize || 5;
 
         // calculate total pages
         var totalPages = Math.ceil(totalItems / pageSize);
@@ -114,21 +114,31 @@ class Pagination extends Component {
         return (
             <ul className="pagination">
                 <li className={pager.currentPage === 1 ? 'disabled' : ''}>
-                    <a href="/" onClick={() => this.setPage(1)}>First</a>
+                    <a href="/" onClick={(e) => {
+                          e.preventDefault();
+                          this.setPage(1)} }>First</a>
                 </li>
                 <li className={pager.currentPage === 1 ? 'disabled' : ''}>
-                    <a href="/" onClick={() => this.setPage(pager.currentPage - 1)}>Previous</a>
+                    <a href="/" onClick={(e) => {
+                          e.preventDefault();
+                          this.setPage(pager.currentPage - 1)} }>Previous</a>
                 </li>
                 {pager.pages.map((page, index) =>
                     <li key={index} className={pager.currentPage === page ? 'active' : ''}>
-                        <a href="/" onClick={() => this.setPage(page)}>{page}</a>
+                        <a href="/" onClick={(e) => {
+                              e.preventDefault();
+                              this.setPage(page)} }>{page}</a>
                     </li>
                 )}
                 <li className={pager.currentPage === pager.totalPages ? 'disabled' : ''}>
-                    <a href="/" onClick={() => this.setPage(pager.currentPage + 1)}>Next</a>
+                    <a href="/" onClick={(e) => {
+                          e.preventDefault();
+                          this.setPage(pager.currentPage + 1)} }>Next</a>
                 </li>
                 <li className={pager.currentPage === pager.totalPages ? 'disabled' : ''}>
-                    <a href="/" onClick={() => this.setPage(pager.totalPages)}>Last</a>
+                    <a href="/" onClick={(e) => {
+                          e.preventDefault();
+                          this.setPage(pager.totalPages)} }>Last</a>
                 </li>
             </ul>
         );
