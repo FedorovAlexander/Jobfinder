@@ -1,5 +1,6 @@
 [
    {
+    "id": 1,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering.",
     "position": "Evil Scientist",
@@ -9,11 +10,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "candidate",
-    "index": 1,
-    "imgLink": "./static-assets/img/umbrella.png"
-  },
+    "status": "candidate"
+    },
   {
+    "id": 2,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering.",
     "position": "Zombie Bites Tester",
@@ -23,11 +23,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "not interested",
-    "index": 2,
-    "imgLink": "/static-assets/img/umbrella.png"
-  },
+    "status": "not interested"
+    },
   {
+    "id": 3,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering..",
     "position": "Zombie Killing Squad Member",
@@ -37,11 +36,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "denied",
-    "index": 3,
-    "imgLink": "/static-assets/img/umbrella.png"
-  },
+    "status": "denied"
+    },
   {
+    "id": 4,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Aquaman (sucks)",
@@ -51,11 +49,10 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "Aquaman sucks!",
-    "status": "not interested",
-    "index": 9,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "not interested"
+    },
   {
+    "id": 5,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Batman",
@@ -65,11 +62,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "Cool",
-    "status": "offer",
-    "index": 10,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 6,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Superman",
@@ -79,11 +75,10 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "don't like underpants over leotards",
-    "status": "offer",
-    "index": 6,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 7,
     "companyName": "Tyrell Corp",
     "description": "The Tyrell Corporation is a powerful corporation based in Los Angeles in the year AF 19. Tyrell is named after its founder Eldon Tyrell and is a high-tech corporation primarily concerned with the production of androids known as replicants.",
     "position": "Bladerunner",
@@ -93,11 +88,10 @@
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "offer",
-    "index": 7,
-    "imgLink": "/static-assets/img/tyrell.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 8,
     "companyName": "Tyrell Corp",
     "description": "The Tyrell Corporation is a powerful corporation based in Los Angeles in the year AF 19. Tyrell is named after its founder Eldon Tyrell and is a high-tech corporation primarily concerned with the production of androids known as replicants.",
     "position": "Android Test Manager",
@@ -107,11 +101,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied",
-    "index": 8,
-    "imgLink": "/static-assets/img/tyrell.jpg"
-  },
+    "status": "denied"
+    },
   {
+    "id": 9,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Tennis Ball Bomb Maker",
@@ -121,11 +114,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "offer",
-    "index": 4,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "offer"
+    },
   {
+    "id": 10,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Rocket Scientist",
@@ -135,11 +127,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "candidate",
-    "index": 5,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "candidate"
+    },
   {
+    "id": 11,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Wile E. Coyote Personal Doctor",
@@ -149,12 +140,11 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "test",
-    "status": "not interested",
-    "index": 6,
-    "imgLink": "/static-assets/img/Acme.png"
-
+    "status": "not interested"
+    
   },
   {
+    "id": 12,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering.",
     "position": "Zombie Bites Tester",
@@ -164,11 +154,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "not interested",
-    "index": 2,
-    "imgLink": "/static-assets/img/umbrella.png"
-  },
+    "status": "not interested"
+    },
   {
+    "id": 13,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering..",
     "position": "Zombie Killing Squad Member",
@@ -178,11 +167,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "denied",
-    "index": 3,
-    "imgLink": "/static-assets/img/umbrella.png"
-  },
+    "status": "denied"
+    },
   {
+    "id": 14,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Aquaman (sucks)",
@@ -192,11 +180,10 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "Aquaman sucks!",
-    "status": "not interested",
-    "index": 9,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "not interested"
+    },
   {
+    "id": 15,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Batman",
@@ -206,11 +193,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "Cool",
-    "status": "offer",
-    "index": 10,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 16,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Superman",
@@ -220,11 +206,10 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "don't like underpants over leotards",
-    "status": "offer",
-    "index": 6,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 17,
     "companyName": "Tyrell Corp",
     "description": "The Tyrell Corporation is a powerful corporation based in Los Angeles in the year AF 19. Tyrell is named after its founder Eldon Tyrell and is a high-tech corporation primarily concerned with the production of androids known as replicants.",
     "position": "Bladerunner",
@@ -234,11 +219,10 @@
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "offer",
-    "index": 7,
-    "imgLink": "/static-assets/img/tyrell.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 18,
     "companyName": "Tyrell Corp",
     "description": "The Tyrell Corporation is a powerful corporation based in Los Angeles in the year AF 19. Tyrell is named after its founder Eldon Tyrell and is a high-tech corporation primarily concerned with the production of androids known as replicants.",
     "position": "Android Test Manager",
@@ -248,11 +232,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied",
-    "index": 8,
-    "imgLink": "/static-assets/img/tyrell.jpg"
-  },
+    "status": "denied"
+    },
   {
+    "id": 19,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Tennis Ball Bomb Maker",
@@ -262,11 +245,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "offer",
-    "index": 4,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "offer"
+    },
   {
+    "id": 20,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Rocket Scientist",
@@ -276,11 +258,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "candidate",
-    "index": 5,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "candidate"
+    },
   {
+    "id": 21,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Wile E. Coyote Personal Doctor",
@@ -290,12 +271,11 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "test",
-    "status": "not interested",
-    "index": 6,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "not interested"
+    },
 
   {
+    "id": 22,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering.",
     "position": "Zombie Bites Tester",
@@ -305,11 +285,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "not interested",
-    "index": 2,
-    "imgLink": "/static-assets/img/umbrella.png"
-  },
+    "status": "not interested"
+    },
   {
+    "id": 23,
     "companyName": "Umbrella Corp",
     "description": "The Umbrella Corporation is an international pharmaceutical company. Founded in the late 1960s by prominent British royal descendants Ozwell E. Spencer and Edward Ashford, it is portrayed in the series as a major international player in pharmaceutical goods and medical supplies, along with more clandestine operations utilizing genetic engineering..",
     "position": "Zombie Killing Squad Member",
@@ -319,11 +298,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "denied",
-    "index": 3,
-    "imgLink": "/static-assets/img/umbrella.png"
-  },
+    "status": "denied"
+    },
   {
+    "id": 24,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Aquaman (sucks)",
@@ -333,11 +311,10 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "Aquaman sucks!",
-    "status": "not interested",
-    "index": 9,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "not interested"
+    },
   {
+    "id": 25,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Batman",
@@ -347,11 +324,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "Cool",
-    "status": "offer",
-    "index": 10,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 26,
     "companyName": "Justice League",
     "description": "The initial Justice League lineup included seven of DC Comics' superheroes who were regularly published at that time: Superman, Batman, Aquaman, Flash, Green Lantern, Martian Manhunter, and Wonder Woman.",
     "position": "Superman",
@@ -361,11 +337,10 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "don't like underpants over leotards",
-    "status": "offer",
-    "index": 6,
-    "imgLink": "/static-assets/img/justice-league.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 27,
     "companyName": "Tyrell Corp",
     "description": "The Tyrell Corporation is a powerful corporation based in Los Angeles in the year AF 19. Tyrell is named after its founder Eldon Tyrell and is a high-tech corporation primarily concerned with the production of androids known as replicants.",
     "position": "Bladerunner",
@@ -375,11 +350,10 @@
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "offer",
-    "index": 7,
-    "imgLink": "/static-assets/img/tyrell.jpg"
-  },
+    "status": "offer"
+    },
   {
+    "id": 28,
     "companyName": "Tyrell Corp",
     "description": "The Tyrell Corporation is a powerful corporation based in Los Angeles in the year AF 19. Tyrell is named after its founder Eldon Tyrell and is a high-tech corporation primarily concerned with the production of androids known as replicants.",
     "position": "Android Test Manager",
@@ -389,11 +363,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied",
-    "index": 8,
-    "imgLink": "/static-assets/img/tyrell.jpg"
-  },
+    "status": "denied"
+    },
   {
+    "id": 29,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Tennis Ball Bomb Maker",
@@ -403,11 +376,10 @@
     "interesting": false,
     "requiresEducation": false,
     "comment": "test",
-    "status": "offer",
-    "index": 4,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "offer"
+    },
   {
+    "id": 30,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Rocket Scientist",
@@ -417,11 +389,10 @@
     "interesting": true,
     "requiresEducation": true,
     "comment": "test",
-    "status": "candidate",
-    "index": 5,
-    "imgLink": "/static-assets/img/Acme.png"
-  },
+    "status": "candidate"
+    },
   {
+    "id": 31,
     "companyName": "ACME Corp",
     "description": "A Company Manufacturing Everything.",
     "position": "Wile E. Coyote Personal Doctor",
@@ -431,8 +402,6 @@
     "interesting": false,
     "requiresEducation": true,
     "comment": "test",
-    "status": "not interested",
-    "index": 6,
-    "imgLink": "/static-assets/img/Acme.png"
-  }
+    "status": "not interested"
+    }
 ]
