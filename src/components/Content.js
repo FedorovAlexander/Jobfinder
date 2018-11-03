@@ -3,6 +3,7 @@ import Filters from './Filters';
 import Chart from './Chart';
 import './Content.css';
 
+const data = require('../data/vacancies.json');
 
 class Content extends Component {
   render() {
