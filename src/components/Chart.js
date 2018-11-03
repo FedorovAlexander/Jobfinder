@@ -1,22 +1,15 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import ReactDOM from 'react-dom';
 import Card from '../components/Card';
-import Pagination from '../components/Pagination';
 import './Chart.css';
 
 const data = require('../data/vacancies.json');
-const assets = require('../assets.js');
 
 const dataComponent = data.map((item, i) => {
-  return <Card key={i.toString()} position={item.position} company={item.companyName} salary={item.salary} status={item.status} cardImgSrc={assets.trashIcon} />
-
 })
 const Chart = () => {
   return (
     <section className="chart">
       <h1 className="chart__title">Chart</h1>
-    <Pagination />
+    {/* <Pagination /> */}
 
     {dataComponent}
     </section>

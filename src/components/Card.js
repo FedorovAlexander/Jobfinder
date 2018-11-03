@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-const assets = require('../assets.js');
 
 const Card = ({ position, company, salary, status }) => {
   return (

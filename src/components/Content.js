@@ -3,14 +3,12 @@ import Filters from './Filters';
 import Chart from './Chart';
 import './Content.css';
 
-const assets = require('../assets.js');
-
 
 class Content extends Component {
   render() {
     return (
       <section className="content">
-          <Chart />
+          <Chart data={data} />
         <Filters />
       </section>
     );
