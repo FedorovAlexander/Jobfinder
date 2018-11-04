@@ -64,22 +64,22 @@ class Pagination extends Component {
         var totalPages = Math.ceil(totalItems / pageSize);
 
         var startPage, endPage;
-        if (totalPages <= 10) {
-            // less than 10 total pages so show all
-            startPage = 1;
-            endPage = totalPages;
+        if (totalPages <= 2) {
+          // less than 3 total pages so show all
+          startPage = 1;
+          endPage = totalPages;
         } else {
-            // more than 10 total pages so calculate start and end pages
-            if (currentPage <= 6) {
-                startPage = 1;
-                endPage = 10;
-            } else if (currentPage + 4 >= totalPages) {
-                startPage = totalPages - 9;
-                endPage = totalPages;
-            } else {
-                startPage = currentPage - 5;
-                endPage = currentPage + 4;
-            }
+          // more than 3 total pages so calculate start and end pages
+          if (currentPage <= 2) {
+            startPage = 1;
+            endPage = 3;
+          } else if (currentPage >= totalPages) {
+            startPage = totalPages - 2;
+            endPage = totalPages;
+          } else {
+            startPage = currentPage - 2;
+            endPage = currentPage;
+          }
         }
 
         // calculate start and end item indexes
@@ -138,7 +138,7 @@ class Pagination extends Component {
                 <li className={pager.currentPage === pager.totalPages ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
                     <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
-                          this.setPage(pager.totalPages)} }>Last</a>
+                          this.setPage(pager.totalPages)} }>Last ({pager.totalPages})</a>
                 </li>
             </ul>
         );
