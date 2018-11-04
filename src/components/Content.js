@@ -21,7 +21,16 @@ class Content extends Component {
     this.setState({pageOfItems: pageOfItems});
   }
 
+  onSearchChange = (event) => {
+    this.setState({ searchfield: event.target.value })
+    const filteredData = this.state.data.filter(dataItem => {
+      return dataItem.position.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    })
+    console.log(filteredData)
+  }
+
   render() {
+
     return (
       <section className="content">
           <Chart data={this.state.data}/>

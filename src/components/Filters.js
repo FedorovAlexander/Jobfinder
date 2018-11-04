@@ -12,8 +12,12 @@ class Filters extends Component {
     }
   }
 
-  onSearchChange(event) {
-    console.log(event.target.value)
+  onSearchChange = (event) => {
+    this.setState({ searchfield: event.target.value })
+    const filteredData = this.state.data.filter(dataItem => {
+      return dataItem.position.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    })
+    console.log(filteredData)
   }
 
   render() {
