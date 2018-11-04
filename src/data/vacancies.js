@@ -1,4 +1,4 @@
-[
+export const data = [
    {
     "id": 1,
     "companyName": "Umbrella Corp",
@@ -141,7 +141,7 @@
     "requiresEducation": true,
     "comment": "test",
     "status": "not interested"
-    
+
   },
   {
     "id": 12,
