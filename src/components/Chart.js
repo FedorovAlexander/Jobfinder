@@ -3,21 +3,12 @@ import Card from '../components/Card';
 import Pagination from '../components/Pagination';
 import './Chart.css';
 
-const data = require('../data/vacancies.json');
-
 class Chart extends Component {
   constructor() {
     super();
 
     var data = require('../data/vacancies.json');
 
-    var dataItems = [...data].map((item) => ({
-      id: item.id,
-      position: item.position,
-      companyName: item.companyName,
-      salary: item.salary,
-      status: item.status
-    }));
     this.state = {
       data: data,
       pageOfItems: [],
