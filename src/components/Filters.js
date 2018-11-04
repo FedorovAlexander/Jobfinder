@@ -6,7 +6,7 @@ class Filters extends Component {
   render() {
     return (
       <section className="filters">
-        <SearchBox />
+        <SearchBox searchChange={this.onSearchChange} />
       </section>
     );
   }
