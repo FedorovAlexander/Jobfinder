@@ -2,12 +2,11 @@ import React, {Component} from 'react';
 import Card from '../components/Card';
 import Pagination from '../components/Pagination';
 import './Chart.css';
+import {data} from '../data/vacancies'
 
 class Chart extends Component {
   constructor() {
     super();
-
-    var data = require('../data/vacancies.json');
 
     this.state = {
       data: data,
@@ -16,6 +15,10 @@ class Chart extends Component {
     };
 
     this.onChangePage = this.onChangePage.bind(this);
+  }
+
+  onSearchChange (event) {
+    console.log(event)
   }
 
   onChangePage(pageOfItems) {
@@ -35,7 +38,8 @@ class Chart extends Component {
       ))}
       <Pagination
          items={this.state.data}
-         onChangePage={this.onChangePage}/>
+         onChangePage={this.onChangePage}
+       />
     </section>);
   }
 }
