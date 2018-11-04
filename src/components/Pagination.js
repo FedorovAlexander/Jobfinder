@@ -58,7 +58,7 @@ class Pagination extends Component {
         currentPage = currentPage || 1;
 
         // default page size is 10
-        pageSize = pageSize || 5;
+        pageSize = pageSize || 8;
 
         // calculate total pages
         var totalPages = Math.ceil(totalItems / pageSize);
@@ -113,30 +113,30 @@ class Pagination extends Component {
 
         return (
             <ul className="pagination">
-                <li className={pager.currentPage === 1 ? 'disabled' : ''}>
-                    <a href="/" onClick={(e) => {
+                <li className={pager.currentPage === 1 ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
+                    <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
                           this.setPage(1)} }>First</a>
                 </li>
-                <li className={pager.currentPage === 1 ? 'disabled' : ''}>
-                    <a href="/" onClick={(e) => {
+                <li className={pager.currentPage === 1 ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
+                    <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
                           this.setPage(pager.currentPage - 1)} }>Previous</a>
                 </li>
                 {pager.pages.map((page, index) =>
-                    <li key={index} className={pager.currentPage === page ? 'active' : ''}>
-                        <a href="/" onClick={(e) => {
+                    <li key={index} className={pager.currentPage === page ? 'pagination__item pagination__item--active' : 'pagination__item'}>
+                        <a href="/" className="pagination__link" onClick={(e) => {
                               e.preventDefault();
                               this.setPage(page)} }>{page}</a>
                     </li>
                 )}
-                <li className={pager.currentPage === pager.totalPages ? 'disabled' : ''}>
-                    <a href="/" onClick={(e) => {
+                <li className={pager.currentPage === pager.totalPages ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
+                    <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
                           this.setPage(pager.currentPage + 1)} }>Next</a>
                 </li>
-                <li className={pager.currentPage === pager.totalPages ? 'disabled' : ''}>
-                    <a href="/" onClick={(e) => {
+                <li className={pager.currentPage === pager.totalPages ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
+                    <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
                           this.setPage(pager.totalPages)} }>Last</a>
                 </li>

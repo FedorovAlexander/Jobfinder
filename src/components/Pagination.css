@@ -1,5 +1,48 @@
 .pagination {
   position: absolute;
-  bottom: 30px;
-  left: 50%;
+  bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 0;
+
+  text-align: center;
+
+  align-content: center;
+}
+
+.pagination__item {
+  position: relative;
+
+  list-style: none;
+
+  border: 1px solid rgb(236, 233, 242);
+  background-color: #fff;
+  color: #180045;
+}
+
+.pagination__item--active {
+  color: #fff;
+  background-color: #a299b4;
+}
+
+.pagination__item--disabled {
+  color: lightgrey;
+  background-color: #fff;
+}
+
+.pagination__link {
+  display: block;
+
+  height: 100%;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: inherit;
 }
