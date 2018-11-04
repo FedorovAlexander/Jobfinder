@@ -10,15 +10,10 @@ class Chart extends Component {
 
     this.state = {
       data: data,
-      pageOfItems: [],
-      searchfield: ''
+      pageOfItems: []
     };
 
     this.onChangePage = this.onChangePage.bind(this);
-  }
-
-  onSearchChange (event) {
-    console.log(event)
   }
 
   onChangePage(pageOfItems) {
