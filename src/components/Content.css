@@ -5,4 +5,9 @@
   position: absolute;
   min-height: 100%;
   width: 100%;
+  padding-top: 200px;
+  background-color: grey;
+  background-image: url('../img/laptop.jpg');
+  background-size: auto;
+  background-attachment: fixed;
 }
