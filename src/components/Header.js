@@ -10,7 +10,7 @@ class Header extends Component {
     return (
       <header className="header">
         <LinkWithImg text="chart" linkClass="header__link" imagePath={assets.chartIcon} imgAlt="user" imgClass="header__img header__img--user"/>
-        <LinkWithImg text="user" linkClass="header__link" imagePath={assets.userIcon} imgAlt="chart" imgClass="header__img header__img--chart"/>
+        <LinkWithImg text="guest" linkClass="header__link" imagePath={assets.userIcon} imgAlt="chart" imgClass="header__img header__img--chart"/>
       </header>
     );
   }
