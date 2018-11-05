@@ -1,20 +1,48 @@
 .card {
-  border: 1px solid rgb(236, 233, 242);
-  background-color: #a299b4;
-  max-width: 800px;
-  width: 100%;
-  display: flex;
-  color: #fff;
-  flex-direction: row;
-  justify-content: flex-start;
-  font-family: Lato;
-  letter-spacing: 1px;
   position: relative;
-  padding-left: 15px;
-  padding-right: 15px;
+
+  display: flex;
+  flex-direction: row;
+
   box-sizing: border-box;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+
+  letter-spacing: 1px;
+
+  color: #2e2e2e;
+  border-bottom: 1px solid lightgrey;
+  background-color: #fff;
+
+  font-family: Lato;
+
+  justify-content: flex-start;
+}
+
+.card:nth-child(2) {
+  border-top: 1px solid lightgrey;
+}
+
+.card__img-block {
+  display: flex;
+
+  width: 32px;
+  height: 32px;
+  margin-top: 5px;
+  margin-right: 20px;
+  padding: 12px;
+
+  color: #fff;
+  border-radius: 50%;
+  background-color:  #a299b4;
+
+  font-size: 24px;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .card__position-company-block {
@@ -22,23 +50,39 @@
 }
 
 .card__salary-status-block {
-  flex: 1;
   display: flex;
   flex-direction: column;
+
+  flex: 1;
   justify-content: flex-start;
   align-items: flex-end;
 }
 
 .card__position {
-  text-transform: uppercase;
-  font-size: 20px;
   margin-top: 0;
+
+  text-transform: uppercase;
+
+  font-size: 20px;
 }
 
-.card__img {
-  position: absolute;
-  right: 7px;
-  top: 7px;
+.card__link {
+  transition: all 0.1s linear;
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.card__link--position {
+  font-size: 22px;
+}
+
+.card__link--company {
+  font-size: 18px;
+}
+
+.card__link:hover {
+  color: #a299b4;
 }
 
 .card__company {
@@ -47,8 +91,10 @@
 
 .card__status {
   margin-bottom: 0;
+
+  font-size: 18px;
 }
 
 .card__salary {
-  font-size: 20px;
+  font-size: 22px;
 }
