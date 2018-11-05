@@ -15,11 +15,16 @@
 .pagination__item {
   position: relative;
 
+  min-width: 20px;
+
   list-style: none;
 
-  border: 1px solid rgb(236, 233, 242);
+  color: #2e2e2e;
+  border: none;
+  border-radius: 50%;
   background-color: #fff;
-  color: #180045;
+
+  font-size: 17px;
 }
 
 .pagination__item--active {
