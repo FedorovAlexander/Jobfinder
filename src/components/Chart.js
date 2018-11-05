@@ -2,22 +2,18 @@ import React, {Component} from 'react';
 import Card from '../components/Card';
 import Pagination from '../components/Pagination';
 import './Chart.css';
-import {data} from '../data/vacancies'
 
 class Chart extends Component {
-  constructor() {
+  constructor(props) {
     super();
-
     this.state = {
-      data: data,
-      pageOfItems: []
+        data: props.data,
+        pageOfItems: []
     };
-
     this.onChangePage = this.onChangePage.bind(this);
   }
 
   onChangePage(pageOfItems) {
-
     this.setState({pageOfItems: pageOfItems});
   }
 
@@ -32,7 +28,7 @@ class Chart extends Component {
           status={item.status}/>
       ))}
       <Pagination
-         items={this.state.data}
+         items={this.props.data}
          onChangePage={this.onChangePage}
        />
     </section>);

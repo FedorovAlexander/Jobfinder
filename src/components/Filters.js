@@ -1,24 +1,25 @@
 import React, {Component} from 'react';
 import SearchBox from './SearchBox';
 import './Filters.css';
-import {data} from '../data/vacancies';
 
 class Filters extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super();
     this.state = {
-      data: data,
-      searchfield: ''
-    }
+        data: props.data,
+        searchfield: ''
+    };
+      this.setData = (data) => {
+          props.setChange(data);
+      }
   }
 
   onSearchChange = (event) => {
-    this.setState({ searchfield: event.target.value })
-    const filteredData = this.state.data.filter(dataItem => {
-      return dataItem.position.toLowerCase().includes(this.state.searchfield.toLowerCase())
-    })
-    console.log(filteredData)
-  }
+      const filteredData = this.state.data.filter(dataItem => {
+        return dataItem.position.toLowerCase().includes(event.target.value.toLowerCase())
+      });
+      if(filteredData.length) this.setData(filteredData);
+    };
 
   render() {
     return (
