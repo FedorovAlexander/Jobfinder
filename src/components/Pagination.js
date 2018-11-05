@@ -58,27 +58,27 @@ class Pagination extends Component {
         currentPage = currentPage || 1;
 
         // default page size is 10
-        pageSize = pageSize || 8;
+        pageSize = pageSize || 6;
 
         // calculate total pages
         var totalPages = Math.ceil(totalItems / pageSize);
 
         var startPage, endPage;
-        if (totalPages <= 2) {
-          // less than 3 total pages so show all
+        if (totalPages <= 4) {
+          // less than 10 total pages so show all
           startPage = 1;
           endPage = totalPages;
         } else {
-          // more than 3 total pages so calculate start and end pages
-          if (currentPage <= 2) {
+          // more than 10 total pages so calculate start and end pages
+          if (currentPage <= 3) {
             startPage = 1;
-            endPage = 3;
-          } else if (currentPage >= totalPages) {
-            startPage = totalPages - 2;
+            endPage = 5;
+          } else if (currentPage + 2 >= totalPages) {
+            startPage = totalPages - 4;
             endPage = totalPages;
           } else {
-            startPage = currentPage - 2;
-            endPage = currentPage;
+            startPage = currentPage - 3;
+            endPage = currentPage + 2;
           }
         }
 
