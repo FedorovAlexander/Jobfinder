@@ -57,8 +57,7 @@ class Pagination extends Component {
         // default to first page
         currentPage = currentPage || 1;
 
-        // default page size is 10
-        pageSize = pageSize || 6;
+        pageSize = pageSize || 10;
 
         // calculate total pages
         var totalPages = Math.ceil(totalItems / pageSize);
@@ -121,7 +120,7 @@ class Pagination extends Component {
                 <li className={pager.currentPage === 1 ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
                     <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
-                          this.setPage(pager.currentPage - 1)} }>Previous</a>
+                          this.setPage(pager.currentPage - 1)} }>Prev</a>
                 </li>
                 {pager.pages.map((page, index) =>
                     <li key={index} className={pager.currentPage === page ? 'pagination__item pagination__item--active' : 'pagination__item'}>
@@ -138,7 +137,7 @@ class Pagination extends Component {
                 <li className={pager.currentPage === pager.totalPages ? 'pagination__item pagination__item--disabled' : 'pagination__item'}>
                     <a href="/" className="pagination__link" onClick={(e) => {
                           e.preventDefault();
-                          this.setPage(pager.totalPages)} }>Last ({pager.totalPages})</a>
+                          this.setPage(pager.totalPages)} }>Last</a>
                 </li>
             </ul>
         );
