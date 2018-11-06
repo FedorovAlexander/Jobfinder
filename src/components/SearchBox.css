@@ -1,0 +1,25 @@
+.input-block {
+  box-sizing: border-box;
+}
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding-top: 7px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #444;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: lightgrey;
+  font-style: italic;
+}
+
+.input:focus {
+  outline: none;
+}

@@ -1,15 +1,16 @@
 import React from 'react';
+import './SearchBox.css';
 
 const SearchBox = ({ searchfield, searchChange }) => {
   return (
-    <div>
+    <section className="input-block">
       <input
         className="input"
         type='search'
-        placeholder='search vacancies'
+        placeholder='search'
         onChange={searchChange}
        />
-    </div>
+   </section>
   );
 }
 
