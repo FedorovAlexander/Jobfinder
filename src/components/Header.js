@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import LinkWithImg from '../components/LinkWithImg';
+import Link from './Link';
+import Navigation from './Navigation';
 import './Header.css';
-
-const assets = require('../assets.js');
-
 
 class Header extends Component {
   render() {
     return (
       <header className="header">
-        <LinkWithImg text="chart" linkClass="header__link" imagePath={assets.chartIcon} imgAlt="user" imgClass="header__img header__img--user"/>
-        <LinkWithImg text="guest" linkClass="header__link" imagePath={assets.userIcon} imgAlt="chart" imgClass="header__img header__img--chart"/>
+        <div className="header__container">
+          <Link text="JobFinder" linkClass="header__link header__link--logo" />
+          <Navigation />
+        </div>
       </header>
     );
   }
