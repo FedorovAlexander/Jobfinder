@@ -20,8 +20,12 @@ class Content extends Component {
   render() {
     return (
       <section className="content">
-          <Chart data={this.state.data} />
-          <Filters  data={data}  setChange={this.changeData.bind(this)}/>
+        <div className="content__wrapper">
+          <div className="content__container">
+            <Chart data={this.state.data} />
+            <Filters  data={data}  setChange={this.changeData.bind(this)}/>
+          </div>
+        </div>
       </section>
     );
   }
