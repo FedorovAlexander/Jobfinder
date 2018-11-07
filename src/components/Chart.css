@@ -1,16 +1,19 @@
 .chart {
   position: relative;
+  top: -35px;
 
   display: flex;
   flex-direction: column;
 
   padding-top: 80px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left:40px;
 
-  border-right: 1px solid lightgrey;
-  background-color: #fff;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 
   justify-content: flex-start;
   align-items: center;
@@ -19,8 +22,8 @@
 
 .chart__title {
   position: absolute;
-  top: -100px;
-  left: 120px;
+  top: -95px;
+  left: 40px;
 
   margin: 0;
 
@@ -36,7 +39,7 @@
 
 @media screen and (min-width: 800px) {
   .chart {
-    padding-right: 60px;
-    padding-left: 120px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
