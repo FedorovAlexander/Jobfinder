@@ -5,9 +5,9 @@
   flex-direction: column;
 
   padding-top: 80px;
-  padding-right: 60px;
+  padding-right: 20px;
   padding-bottom: 50px;
-  padding-left: 120px;
+  padding-left: 80px;
 
   border-right: 1px solid lightgrey;
   background-color: #fff;
@@ -19,8 +19,9 @@
 
 .chart__title {
   position: absolute;
-  left: 120px;
   top: -100px;
+  left: 120px;
+
   margin: 0;
 
   text-align: left;
@@ -31,4 +32,11 @@
 
   font-family: Lato;
   font-size: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  .chart {
+    padding-right: 60px;
+    padding-left: 120px;
+  }
 }
