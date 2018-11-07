@@ -1,13 +1,30 @@
 .content {
+  width: 100%;
+  padding-top: 250px;
+  height: 100%;
+
+  background-image: url('../img/asphalt.jpg');
+  background-attachment: fixed;
+  background-size: auto;
+
+  padding-bottom: 50px;
+}
+
+.content__wrapper {
+  display: block;
+
+  width: 100%;
+
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  position: absolute;
+}
+
+.content__container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  position: absolute;
-  min-height: 100%;
-  width: 100%;
-  padding-top: 200px;
-  background-color: grey;
-  background-image: url('../img/laptop.jpg');
-  background-size: auto;
-  background-attachment: fixed;
+  position: relative;
+
 }
