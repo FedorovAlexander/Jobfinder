@@ -1,10 +1,11 @@
 .filters {
-  flex: 2;
-  background-color: #444;
   padding-top: 50px;
-  padding-left: 40px;
   padding-right: 40px;
+  padding-left: 40px;
+
   color: #fff;
+
+  flex: 1;
 }
 
 .filters__title {
