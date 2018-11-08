@@ -33,7 +33,7 @@
   height: 32px;
   margin-top: 5px;
   margin-right: 20px;
-  padding: 12px;
+  padding: 25px;
 
   color: #fff;
   border-radius: 50%;
@@ -124,7 +124,12 @@
 
     font-size: 18px;
   }
+
   .card__salary {
     display: none;
+  }
+  
+  .card__img-block {
+    padding: 20px;
   }
 }
