@@ -20,7 +20,7 @@ const Card = ({ position, company, salary, status }) => {
         </a>
       </p>
       </div>
-      <div className="card__salary-status-block">
+      <div className="card__salary-block">
         <span className="card__salary">{"$" + salary + "/year"}</span>
       </div>
     </div>
