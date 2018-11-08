@@ -1,15 +1,17 @@
 .ui.selection.dropdown {
+  color: #444;
   border: none;
   border-bottom: 1px solid grey;
   border-radius: 0px;
-  background-color: #f4f4f4;
+  background-color: #fff;
+
+  font-family: Lato;
 }
 
 .ui.selection.dropdown:hover {
   border: none;
   border-bottom: 1px solid grey;
   border-radius: 0px;
-  /* background-color: #f4f4f4; */
 }
 
 .ui.active.selection.dropdown {
@@ -44,6 +46,12 @@
   font-size: 18px;
 }
 
+
+
 .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
-  top: 12px;
+  top: 18px;
+}
+
+.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+  color: #444;
 }
