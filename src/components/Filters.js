@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import SearchBox from './SearchBox';
 import Select from './Select';
+import FilterButton from './FilterButton';
 import './Filters.css';
+
 
 class Filters extends Component {
   constructor(props) {
@@ -26,7 +28,13 @@ class Filters extends Component {
     return (
       <section className="filters">
         <SearchBox searchChange={this.onSearchChange} />
+        <h2 className="filters__title">Sort by</h2>
         <Select />
+        <div className="filters__buttons-block">
+          <FilterButton text="Salary" buttonClass="filters__button" />
+          <FilterButton text="Work Time" buttonClass="filters__button" />
+          <FilterButton text="Road Time" buttonClass="filters__button" />
+        </div>
       </section>
     );
   }
