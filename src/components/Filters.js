@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SearchBox from './SearchBox';
+import Select from './Select';
 import './Filters.css';
 
 class Filters extends Component {
@@ -25,6 +26,7 @@ class Filters extends Component {
     return (
       <section className="filters">
         <SearchBox searchChange={this.onSearchChange} />
+        <Select />
       </section>
     );
   }
