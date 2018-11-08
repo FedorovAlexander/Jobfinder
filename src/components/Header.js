@@ -8,7 +8,9 @@ class Header extends Component {
     return (
       <header className="header">
         <div className="header__container">
-          <Link text="JobFinder" linkClass="header__link header__link--logo" />
+          <div className="header__logo">
+            <Link text="JobFinder" linkClass="header__link header__link--logo" />
+          </div>
           <Navigation />
         </div>
       </header>
