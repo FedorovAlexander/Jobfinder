@@ -52,3 +52,9 @@
 
   color: inherit;
 }
+
+@media screen and (max-width: 800px) {
+  .pagination {
+    top: 2px;
+  }
+}
