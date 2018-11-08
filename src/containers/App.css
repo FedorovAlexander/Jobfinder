@@ -5,4 +5,10 @@
 
 .container {
   max-width: 1200px;
+  min-height: 100%;
+  position: relative;
+}
+
+.App__container {
+  padding-bottom: 60px;
 }
