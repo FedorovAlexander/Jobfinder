@@ -1,32 +1,47 @@
 .content {
   width: 100%;
+  min-height: 100%;
   padding-top: 250px;
-  height: 100%;
+  padding-bottom: 50px;
 
   background-image: url('../img/asphalt.jpg');
   background-attachment: fixed;
   background-size: auto;
 
-  padding-bottom: 50px;
+  flex: 1;
 }
 
 .content__wrapper {
+  position: absolute;
+
   display: block;
 
   width: 100%;
+  min-height: 100vh;
 
   background-color: #f4f4f4;
-  min-height: 100vh;
-  position: absolute;
 }
 
 .content__container {
-  max-width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
   position: relative;
 
+  display: flex;
+  flex-direction: row;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1080px) {
+  .content {
+    padding-top: 150px;
+  }
+  .content__container {
+    flex-direction: column;
+  }
 }
