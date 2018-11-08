@@ -114,6 +114,16 @@
 }
 
 @media screen and (max-width: 540px) {
+  .card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .card__position {
+    margin-bottom: 7px;
+
+    font-size: 18px;
+  }
   .card__salary {
     display: none;
   }

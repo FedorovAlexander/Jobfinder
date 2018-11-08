@@ -45,3 +45,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding-top: 120px;
+  }
+}
