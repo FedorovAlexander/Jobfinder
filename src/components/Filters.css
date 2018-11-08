@@ -36,6 +36,8 @@
 
 .filters__button {
   margin-top: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
   padding-top: 8px;
   padding-bottom: 8px;
 
@@ -97,7 +99,7 @@
   .filters__button {
     margin-top: 7px;
   }
-  
+
   .filters__title {
     font-size: 20px;
   }
