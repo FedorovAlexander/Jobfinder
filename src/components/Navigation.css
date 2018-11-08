@@ -41,3 +41,18 @@
   bottom: -1px;
   left: -13px;
 }
+
+.navigation__img--chart {
+  bottom: 2px;
+}
+
+@media screen and (max-width: 640px) {
+  .navigation__text {
+    display: none;
+  }
+
+  .navigation__link--user {
+    margin-right: 0;
+    min-width: 20px;
+  }
+}
