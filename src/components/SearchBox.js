@@ -7,7 +7,7 @@ const SearchBox = ({ searchfield, searchChange }) => {
       <input
         className="input"
         type='search'
-        placeholder='search'
+        placeholder='search vacancies'
         onChange={searchChange}
        />
    </section>
