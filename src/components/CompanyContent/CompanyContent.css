@@ -24,20 +24,6 @@
   flex: 3 1;
 }
 
-.company-content>.page-title {
-    position: relative;
-    top: 0px;
-    left: 0px;
-
-    width: 100%;
-
-    text-align: center;
-
-    color: #444;
-
-    font-size: 30px;
-}
-
 .company-content__description {
   margin-bottom: 30px;
 
@@ -50,4 +36,26 @@
 
 .company-content__company-link {
   width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .company-content>.page-title {
+      position: relative;
+      top: 0px;
+      left: 0px;
+
+      width: 100%;
+
+      text-align: center;
+
+      color: #444;
+
+      font-size: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .company-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
