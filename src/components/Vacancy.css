@@ -15,7 +15,7 @@
   display: block;
 
   width: 100%;
-  min-height: 82vh;
+  min-height: 76vh;
 
   background-color: #f4f4f4;
 }
@@ -33,4 +33,10 @@
   padding-left: 15px;
 
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .vacancy {
+    padding-top: 120px;
+  }
 }
