@@ -14,6 +14,4 @@ class ChartPage extends Component {
   }
 }
 
-// class ChartPage extends Component
-
 export default ChartPage;
