@@ -1,3 +1,7 @@
 .comments {
   width: 100%;
 }
+
+.comments__item {
+  font-size: 20px;
+}
