@@ -1,10 +1,22 @@
 import React from 'react';
+import Header from './Header';
+import VacancyContent from './VacancyContent';
+import Footer from './Footer';
+import './Vacancy.css';
 
 
 const Vacancy = () => {
   return (
     <div>
-      vacancy
+      <Header />
+        <section className="vacancy">
+          <div className="vacancy__wrapper">
+            <div className="vacancy__container">
+              <VacancyContent />
+          </div>
+        </div>
+      </section>
+      <Footer />
     </div>
   )
 }
