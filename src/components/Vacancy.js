@@ -14,9 +14,11 @@ const Vacancy = () => {
             <div className="vacancy__container">
               <VacancyContent />
           </div>
+          <Footer />
         </div>
+
       </section>
-      <Footer />
+
     </div>
   )
 }
