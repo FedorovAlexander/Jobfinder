@@ -1,6 +1,5 @@
 import React from 'react';
 import './LinkWithImg.css';
-import '../assets'
 
 function LinkWithImg({ text, textClass, imagePath, linkClass, imgClass, imgAlt }) {
   return (

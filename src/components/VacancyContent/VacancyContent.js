@@ -1,9 +1,9 @@
 import React from 'react';
 import './VacancyContent.css';
 import { Link } from 'react-router-dom';
-import ItemsList from './ItemsList'
-import Comments from './Comments'
-import PageTitle from './PageTitle'
+import ItemsList from '../ItemsList/ItemsList'
+import Comments from '../Comments/Comments'
+import PageTitle from '../PageTitle/PageTitle'
 
 function VacancyContent ({vacancyTitle, vacancyDescription, company}) {
   return (

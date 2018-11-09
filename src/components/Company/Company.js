@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import CompanyContent from './CompanyContent';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import CompanyContent from '../CompanyContent/CompanyContent';
 import './Company.css';
 
 class Company extends Component {

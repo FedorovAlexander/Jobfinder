@@ -1,10 +1,10 @@
 .content {
   width: 100%;
   min-height: 100%;
-  padding-top: 250px;
+  padding-top: 232px;
   padding-bottom: 50px;
 
-  background-image: url('../img/asphalt.jpg');
+  background-image: url('../../img/asphalt.jpg');
   background-attachment: fixed;
   background-size: auto;
 

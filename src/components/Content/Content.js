@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Filters from './Filters';
-import Footer from './Footer';
-import Chart from './Chart';
-import {data} from '../data/vacancies'
+import Filters from '../Filters/Filters';
+import Footer from '../Footer/Footer';
+import Chart from '../Chart/Chart';
+import {data} from '../../data/vacancies'
 
 import './Content.css';
 

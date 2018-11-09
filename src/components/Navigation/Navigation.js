@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import LinkWithImg from './LinkWithImg';
+import LinkWithImg from '../LinkWithImg/LinkWithImg';
 import './Navigation.css';
 
-const assets = require('../assets.js');
+const assets = require('../../assets.js');
 
 
 class Navigation extends Component {

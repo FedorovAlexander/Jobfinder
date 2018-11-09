@@ -1,7 +1,7 @@
 import React from 'react';
 import "./ItemsList.css";
-import ListItem from "./ListItem";
-const assets = require('../assets.js');
+import ListItem from "../ListItem/ListItem";
+const assets = require('../../assets');
 
 const ItemsList = () => {
   return (

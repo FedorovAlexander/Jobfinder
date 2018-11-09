@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Link from './Link';
-import Navigation from './Navigation';
+import Link from '../Link/Link';
+import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
 class Header extends Component {

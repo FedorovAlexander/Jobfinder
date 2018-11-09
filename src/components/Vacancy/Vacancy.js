@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import VacancyContent from './VacancyContent';
-import Footer from './Footer';
+import Header from '../Header/Header';
+import VacancyContent from '../VacancyContent/VacancyContent';
+import Footer from '../Footer/Footer';
 import './Vacancy.css';
 
 

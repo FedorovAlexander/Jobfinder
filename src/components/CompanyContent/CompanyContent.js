@@ -1,6 +1,6 @@
 import React from 'react';
 import './CompanyContent.css';
-import PageTitle from './PageTitle'
+import PageTitle from '../PageTitle/PageTitle'
 
 function CompanyContent ({vacancyTitle, vacancyDescription, company}) {
   return (

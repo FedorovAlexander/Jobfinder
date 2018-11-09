@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Card from './Card';
-import Pagination from './Pagination';
-import PageTitle from './PageTitle';
+import Card from '../Card/Card';
+import Pagination from '../Pagination/Pagination';
+import PageTitle from '../PageTitle/PageTitle';
 import './Chart.css';
 
 class Chart extends Component {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import SearchBox from './SearchBox';
-import Select from './Select';
-import FilterButton from './FilterButton';
+import SearchBox from '../SearchBox/SearchBox';
+import Select from '../Select/Select';
+import FilterButton from '../FilterButton/FilterButton';
 import './Filters.css';
 
 

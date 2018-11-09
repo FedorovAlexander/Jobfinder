@@ -1,15 +1,15 @@
-.company {
+.vacancy {
   width: 100%;
   min-height: 100%;
   padding-top: 232px;
   padding-bottom: 50px;
 
-  background-image: url('../img/bricks.jpg');
+  background-image: url('../../img/wood.png');
   background-attachment: fixed;
   background-size: cover;
 }
 
-.company__wrapper {
+.vacancy__wrapper {
   position: absolute;
 
   display: block;
@@ -20,7 +20,7 @@
   background-color: #f4f4f4;
 }
 
-.company__container {
+.vacancy__container {
   position: relative;
 
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .company {
+  .vacancy {
     padding-top: 120px;
   }
 }
