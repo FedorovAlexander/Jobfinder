@@ -3,12 +3,14 @@
 }
 
 .conditions__title {
-  width: 100%
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .conditions__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding-left: 0;
   justify-content: space-between;
   width: 100%
@@ -16,6 +18,6 @@
 
 @media screen and (max-width: 400px) {
   .conditions__list {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }

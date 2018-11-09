@@ -1,14 +1,30 @@
 .conditions__list-item {
   list-style: none;
   background: #fff;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  max-width: 250px;
+  text-align: center;
   padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-@media screen and (max-width: 800px) {
+.conditions__item-title {
+  margin-top: 5px;
+}
+
+.conditions__item-value {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1080px) {
   .conditions__list-item {
-    min-width: 100%;
+    width: 33%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .conditions__list-item {
+    width: 49%;
+    margin-bottom: 30px;
   }
 }
