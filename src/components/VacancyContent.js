@@ -1,14 +1,19 @@
 import React from 'react';
 import './VacancyContent.css';
+import { Link } from 'react-router-dom';
 import ItemsList from './ItemsList'
 import Comments from './Comments'
 import PageTitle from './PageTitle'
 
-
-function VacancyContent ({vacancyTitle, vacancyDescription}) {
+function VacancyContent ({vacancyTitle, vacancyDescription, company}) {
   return (
     <section className="vacancy-content">
           <PageTitle titleClass="page-title page-title--vacancy" titleText="Vacancy" />
+          <Link to="/company" className="vacancy-content__company-link">
+            <div className="card__link card__link--company">
+            {company} company
+            </div>
+          </Link>
           <h2 className="vacancy-content__desc-title">Job Description</h2>
           <p className="vacancy-content__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor neque, suscipit ac accumsan eget, sollicitudin sit amet urna. Mauris ut ex risus. Aliquam eleifend augue diam, eget congue ex bibendum vitae. Nulla condimentum maximus nisl non venenatis. Fusce vitae dui erat. Suspendisse in consectetur libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
