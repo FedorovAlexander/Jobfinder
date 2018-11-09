@@ -12,6 +12,9 @@
   padding-bottom: 40px;
   padding-left: 40px;
 
+  text-align: justify;
+  text-justify: inter-word;
+
   border-radius: 10px;
   background: #fff;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
@@ -23,4 +26,31 @@
 
 .vacancy-content__description {
   margin-bottom: 30px;
+}
+
+.vacancy-content__desc-title {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .vacancy-content {
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+  }
+
+  .vacancy-content>.page-title {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #444;
+
+    font-size: 30px;
+  }
 }
