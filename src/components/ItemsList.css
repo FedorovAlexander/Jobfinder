@@ -1,0 +1,15 @@
+.conditions {
+
+}
+
+.conditions__title {
+
+}
+
+.conditions__list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

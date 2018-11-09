@@ -1,0 +1,9 @@
+.conditions__list-item {
+  list-style: none;
+  flex-basis: 30%;
+  border: 1px solid lightgray;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+}
