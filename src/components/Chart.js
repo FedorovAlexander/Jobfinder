@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import Card from '../components/Card';
-import Pagination from '../components/Pagination';
+import Card from './Card';
+import Pagination from './Pagination';
+import PageTitle from './PageTitle';
 import './Chart.css';
 
 class Chart extends Component {
@@ -19,7 +20,7 @@ class Chart extends Component {
 
   render() {
     return (<section className="chart">
-      <h1 className="chart__title">Chart</h1>
+      <PageTitle titleClass="page-title" titleText="Chart" />
       {this.state.pageOfItems.map(item => (
         <Card key={item.id}
           position={item.position}
