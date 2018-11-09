@@ -25,15 +25,27 @@
   }
   .page-title--vacancy {
     top: -95px;
+
     color: #fff;
+
+    font-size: 50px;
+  }
+
+  .page-title--company {
+    top: -95px;
+
+    color: #fff;
+
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 640px) {
   .page-title {
-    font-size: 24px;
     top: -40px;
+
     margin-bottom: 30px;
+
+    font-size: 24px;
   }
 }

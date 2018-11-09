@@ -24,8 +24,23 @@
   flex: 3 1;
 }
 
+.company-content>.page-title {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: #444;
+
+    font-size: 30px;
+}
+
 .company-content__description {
   margin-bottom: 30px;
+
   font-size: 18px;
 }
 
