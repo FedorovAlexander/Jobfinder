@@ -22,23 +22,6 @@
   flex: 3;
 }
 
-.chart__title {
-  position: absolute;
-  top: -95px;
-  left: 40px;
-
-  margin: 0;
-
-  text-align: left;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-
-  color: #fff;
-
-  font-family: Lato;
-  font-size: 50px;
-}
-
 @media screen and (min-width: 800px) {
   .chart {
     padding-right: 40px;
