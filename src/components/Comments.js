@@ -4,7 +4,7 @@ import './Comments.css';
 function Comments({ commentsText }) {
   return (
       <section className="comments">
-        <h3 className="coditions__item-title">Comments</h3>
+        <h2 className="coditions__item-title">Comments</h2>
         <p className="conditions__item-value">{commentsText}</p>
       </section>
   )
