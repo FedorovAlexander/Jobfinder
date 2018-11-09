@@ -1,0 +1,42 @@
+.company {
+  width: 100%;
+  min-height: 100%;
+  padding-top: 232px;
+  padding-bottom: 50px;
+
+  background-image: url('../img/bricks.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.company__wrapper {
+  position: absolute;
+
+  display: block;
+
+  width: 100%;
+  min-height: 76vh;
+
+  background-color: #f4f4f4;
+}
+
+.company__container {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .company {
+    padding-top: 120px;
+  }
+}
