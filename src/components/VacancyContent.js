@@ -8,7 +8,7 @@ import PageTitle from './PageTitle'
 function VacancyContent ({vacancyTitle, vacancyDescription}) {
   return (
     <section className="vacancy-content">
-          <PageTitle titleClass="page-title" titleText="Vacancy" />
+          <PageTitle titleClass="page-title page-title--vacancy" titleText="Vacancy" />
           <h2 className="vacancy-content__desc-title">Job Description</h2>
           <p className="vacancy-content__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tortor neque, suscipit ac accumsan eget, sollicitudin sit amet urna. Mauris ut ex risus. Aliquam eleifend augue diam, eget congue ex bibendum vitae. Nulla condimentum maximus nisl non venenatis. Fusce vitae dui erat. Suspendisse in consectetur libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 

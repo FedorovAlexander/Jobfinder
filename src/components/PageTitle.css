@@ -14,3 +14,25 @@
   font-family: Lato;
   font-size: 50px;
 }
+
+@media screen and (max-width: 1080px) {
+  .page-title {
+    top: -60px;
+
+    color: #444;
+
+    font-size: 35px;
+  }
+  .page-title--vacancy {
+    top: -95px;
+    color: #fff;
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .page-title {
+    font-size: 24px;
+    top: -40px;
+  }
+}

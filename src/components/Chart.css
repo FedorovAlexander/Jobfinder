@@ -37,14 +37,6 @@
 
     order: 2;
   }
-
-  .page-title {
-    top: -60px;
-
-    color: #444;
-
-    font-size: 35px;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -60,10 +52,5 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 50px;
-  }
-
-  .page-title {
-    font-size: 24px;
-    top: -40px;
   }
 }
