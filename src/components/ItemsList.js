@@ -5,7 +5,7 @@ import ListItem from "./ListItem";
 const ItemsList = () => {
   return (
     <section className="conditions">
-      <h2 className="conditions__titile">Conditions</h2>
+      <h2 className="conditions__title">Conditions</h2>
       <ul className="conditions__list">
         <ListItem itemTitle="Salary" itemValue="value" />
         <ListItem itemTitle="Status" itemValue="value" />
