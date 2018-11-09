@@ -70,7 +70,7 @@
   transition: all 0.1s linear;
   text-decoration: none;
 
-  color: inherit;
+  color: #444;
 }
 
 .card__link--position {
@@ -128,7 +128,7 @@
   .card__salary {
     display: none;
   }
-  
+
   .card__img-block {
     padding: 20px;
   }
