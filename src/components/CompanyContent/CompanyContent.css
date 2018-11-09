@@ -1,0 +1,38 @@
+.company-content {
+  position: relative;
+  top: -55px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+
+  text-align: justify;
+  text-justify: inter-word;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+
+  justify-content: flex-start;
+  align-items: center;
+  flex: 3 1;
+}
+
+.company-content__description {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.company-content__desc-title {
+  width: 100%;
+}
+
+.company-content__company-link {
+  width: 100%;
+}
