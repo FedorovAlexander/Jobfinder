@@ -1,15 +1,21 @@
 .conditions {
-
+  width: 100%;
 }
 
 .conditions__title {
-
+  width: 100%
 }
 
 .conditions__list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-left: 0;
-  flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%
+}
+
+@media screen and (max-width: 400px) {
+  .conditions__list {
+    flex-direction: column;
+  }
 }
