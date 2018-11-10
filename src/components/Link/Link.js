@@ -1,9 +1,9 @@
 import React from 'react';
 import './Link.css';
 
-function LinkWithImg({ text,linkClass }) {
+function LinkWithImg({ text, linkClass, path }) {
   return (
-    <a href="/" className={linkClass}>
+    <a href={path} className={linkClass}>
       {text}
     </a>
   )
