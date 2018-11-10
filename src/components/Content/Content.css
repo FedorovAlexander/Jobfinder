@@ -4,9 +4,9 @@
   padding-top: 232px;
   padding-bottom: 50px;
 
-  background-image: url('../../img/asphalt.jpg');
+  background-image: url('../../img/moon.jpg');
   background-attachment: fixed;
-  background-size: auto;
+  background-size: contain;
 
   flex: 1;
 }
