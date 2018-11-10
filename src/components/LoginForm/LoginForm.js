@@ -1,5 +1,6 @@
 import React from 'react';
 import InputWithLabel from '../InputWithLabel/InputWithLabel';
+import FormButton from '../FormButton/FormButton';
 import Link from '../Link/Link';
 import '../LoginForm/LoginForm.css';
 
@@ -20,9 +21,10 @@ const LoginForm = () => {
             name="password"
             placeholder="Password" inputClass="input-with-label input-with-label--login-reg"
           />
-          <input
-            className ="log-form__sumbit"
-            type="submit" value="Submit" formAction="/chartPage"
+
+          <FormButton
+            buttonClass="log-form__sumbit"
+            text="Submit" path="/chartPage"
           />
           <Link text="Do not have an account?" linkClass="log-form__forgot" path="/registration"/>
         </form>

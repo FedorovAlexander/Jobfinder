@@ -1,6 +1,7 @@
 import React from 'react';
 import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import CustomCheckbox from '../CustomCheckbox/CustomCheckbox';
+import FormButton from '../FormButton/FormButton';
 import Link from '../Link/Link';
 import '../RegistrationForm/RegistrationForm.css';
 
@@ -35,11 +36,10 @@ const RegistrationForm = () => {
             checkmarkClass="checkmark checkmark--log-reg"
             labelText="Agree with terms and conditions"
            />
-          <input
-            className ="reg-form__sumbit"
-            type="submit"
-            value="Submit"
-            formAction="/chartPage"
+
+          <FormButton
+            buttonClass="reg-form__sumbit"
+            text="Submit" path="/chartPage"
           />
           <Link text="Already have an account?" linkClass="reg-form__forgot" path="/login"/>
         </form>
