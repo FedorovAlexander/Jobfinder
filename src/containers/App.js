@@ -8,6 +8,7 @@ import Vacancy from '../components/Vacancy/Vacancy';
 import Company from '../components/Company/Company';
 import Login from '../components/Login/Login';
 import Registration from '../components/Registration/Registration';
+import NewVacancy from '../components/NewVacancy/NewVacancy';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/board" component={Board} />
             <Route path="/user" component={User} />
             <Route path="/vacancy" component={Vacancy} />
+            <Route path="/new-vacancy" component={NewVacancy} />
             <Route path="/company" component={Company} />
             <Route path="/login" component={Login} />
             <Route path="/registration" component={Registration} />
