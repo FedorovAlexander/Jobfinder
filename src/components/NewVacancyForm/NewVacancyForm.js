@@ -3,7 +3,6 @@ import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import CustomCheckbox from '../CustomCheckbox/CustomCheckbox';
 import FormButton from '../FormButton/FormButton';
 import SelectSingle from '../Select/SelectSingle';
-import Link from '../Link/Link';
 import '../NewVacancyForm/NewVacancyForm.css';
 
 const NewVacancyForm = () => {
