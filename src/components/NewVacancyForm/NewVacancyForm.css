@@ -1,14 +1,19 @@
-.log-form {
+.new-vacancy-form {
+  position: absolute;
+  top: -75px;
   box-sizing: border-box;
-  min-width: 330px;
-  padding-right: 15px;
-  padding-left: 15px;
+  min-width: 290px;
+  padding-right: 25px;
+  padding-left: 25px;
   padding-top: 15px;
+  padding-bottom: 40px;
 
   color: #56687b;
+
+  background-color: #fff;
 }
 
-.log-form__title {
+.new-vacancy-form__title {
   margin-bottom: 40px;
 
   text-align: center;
@@ -16,8 +21,38 @@
   font-size: 40px;
 }
 
-.log-form__sumbit {
-  width: 330px;
+.new-vacancy-form__options-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.new-vacancy-form__options-block div {
+  margin-right: 20px;
+}
+
+.new-vacancy-form__options-block div:last-child {
+  margin-right: 0px;
+}
+
+.new-vacancy-form__checkbox-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.new-vacancy-form__buttons-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.new-vacancy-form__button {
+  max-width: 250px;
+  width: 100%;
   height: 40px;
   margin-top: 40px;
 
@@ -32,25 +67,10 @@
   font-size: 20px;
 }
 
-.log-form__checkbox {
-  margin-top: 40px;
-
-  font-size: 16px;
+.new-vacancy-form__button--submit {
+  background: #1FCE6D;
 }
 
-.log-form__forgot {
-  display: block;
-
-  margin-top: 20px;
-
-  transition: all 0.1s linear;
-  text-align: center;
-
-  color: #56687b;
-
-  font-size: 20px;
-}
-
-.log-form__forgot:hover {
-  color: #a299b4;
+.new-vacancy-form__button--cancel {
+  background: lightgrey;
 }
