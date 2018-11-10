@@ -1,13 +1,13 @@
 import React from 'react';
 import './CustomCheckbox.css';
 
-const CustomCheckbox = () => {
+const CustomCheckbox = ({blockClass, labelClass, labelText, inputClass, checkmarkClass, inputId}) => {
   return (
-    <div className="reg-form__checkbox">
-      <label className="reg-form__checkbox-label" htmlFor="agree">
+    <div className={blockClass}>
+      <label className={labelClass} htmlFor={inputId}>
         Accept rules and conditions
-        <input id="agree" className="reg-form__checkbox-input" type="checkbox" value="" />
-        <span className="reg-form__checkmark"></span>
+        <input id={inputId} className={inputClass} type="checkbox" value="" />
+        <span className={checkmarkClass}></span>
       </label>
     </div>
   );

@@ -1,4 +1,4 @@
-.reg-form__checkbox-label {
+.checkbox-label {
   position: relative;
 
   display: block;
@@ -9,12 +9,17 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+   user-select: none;
 
-  font-size: 20px;
+   font-size: 20px;
+   outline: none;
 }
 
-.reg-form__checkbox-label input {
+.checkbox-input[type="checkbox"]:focus + checkbox-label::before {
+  outline: none;
+}
+
+.checkbox-label input {
   position: absolute;
 
   width: 0;
@@ -23,9 +28,15 @@
   cursor: pointer;
 
   opacity: 0;
+
+  outline: none;
 }
 
-.reg-form__checkmark {
+input[type="checkbox"]{
+        display: none;
+    }
+
+.checkmark {
   position: absolute;
   top: -2px;
   left: 0;
@@ -34,18 +45,22 @@
   height: 25px;
 
   border-radius: 50%;
+}
+
+.checkmark--log-reg {
   background-color: #435160;
 }
 
-.reg-form__checkbox-label:hover input ~ .reg-form__checkmark {
+.checkbox-label:hover input ~ .checkmark--log-reg {
   background-color: #435160;
 }
 
-.reg-form__checkbox-label input:checked ~ .reg-form__checkmark {
+.checkbox-label input:checked ~ .checkmark--log-reg {
   background-color: #435160;
+  outline: none;
 }
 
-.reg-form__checkmark:after {
+.checkmark:after {
   position: absolute;
 
   display: none;
@@ -53,11 +68,11 @@
   content: "";
 }
 
-.reg-form__checkbox-label input:checked ~ .reg-form__checkmark:after {
+.checkbox-label input:checked ~ .checkmark:after {
   display: block;
 }
 
-.reg-form__checkbox-label .reg-form__checkmark:after {
+.checkbox-label .checkmark:after {
   top: 9px;
   left: 9px;
 
@@ -65,5 +80,8 @@
   height: 8px;
 
   border-radius: 50%;
+}
+
+.checkbox-label .checkmark--log-reg:after {
   background: #2E3740;
 }
