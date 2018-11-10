@@ -13,16 +13,18 @@
 .input-with-label--new-vacancy {
   box-sizing: border-box;
   width: 100%;
+  margin-top: 20px;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 9px;
   padding-left: 13px;
+
   color: #444;
   border: none;
   border-bottom: 1px solid lightgrey;
   background-color: #fff;
+
   font-size: 18px;
-  margin-top: 20px;
 }
 
 ::-webkit-input-placeholder {
