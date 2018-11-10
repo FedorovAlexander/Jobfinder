@@ -1,0 +1,34 @@
+.login {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  overflow: auto;
+
+  width: 100%;
+  height: 100%;
+
+  color: #435160;
+  background-color: #2E3740;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.login__form {
+  display: flex;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+@media screen and (max-height: 400px) {
+  .login__form {
+    display: block;
+
+    height: 100%;
+  }
+}
