@@ -33,6 +33,7 @@ const RegistrationForm = () => {
             inputId="interesting"
             inputClass="checkbox-input"
             checkmarkClass="checkmark checkmark--log-reg"
+            labelText="Agree with terms and conditions"
            />
           <input
             className ="reg-form__sumbit"
