@@ -2,6 +2,7 @@ import React from 'react';
 import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import CustomCheckbox from '../CustomCheckbox/CustomCheckbox';
 import FormButton from '../FormButton/FormButton';
+import SelectSingle from '../Select/SelectSingle';
 import Link from '../Link/Link';
 import '../NewVacancyForm/NewVacancyForm.css';
 
@@ -38,6 +39,7 @@ const NewVacancyForm = () => {
             name="Road Time"
             placeholder="Road Time" inputClass="input-with-label input-with-label--new-vacancy input-with-label--option"
           />
+          <SelectSingle />
         </div>
         <div className="new-vacancy-form__checkbox-block">
           <CustomCheckbox
@@ -56,10 +58,12 @@ const NewVacancyForm = () => {
             checkmarkClass="checkmark checkmark--vac"
             inputId="education"
            />
+
         </div>
         <div className="new-vacancy-form__comments-block">
 
         </div>
+
         <div className="new-vacancy-form__buttons-block">
           <FormButton
             buttonClass="new-vacancy-form__button new-vacancy-form__button--submit"
