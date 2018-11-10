@@ -107,5 +107,52 @@
 @media screen and (max-width: 800px) {
   .new-vacancy-form {
     top: -40px;
+    max-width: 680px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .new-vacancy-form {
+    max-width: 500px;
+  }
+  .new-vacancy-form__options-block {
+    flex-direction: column;
+  }
+
+  .new-vacancy-form__options-block .ui.selection.dropdown {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .new-vacancy-form__options-block div {
+    margin-right: 0;
+  }
+
+  .new-vacancy-form__checkbox-block {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .new-vacancy-form__checkbox {
+    margin-bottom: 40px;
+  }
+
+  .new-vacancy-form__buttons-block {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .new-vacancy-form__button {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .new-vacancy-form {
+    max-width: 340px;
   }
 }
