@@ -10,11 +10,36 @@ const RegistrationForm = () => {
       <section className="reg-form">
         <h1 className="reg-form__title">Sign Up</h1>
         <form>
-          <InputWithLabel type="text" name="username" placeholder="Username" />
-          <InputWithLabel type="email" name="email" placeholder="Email" />
-          <InputWithLabel type="password" name="password" placeholder="Password" />
-          <CustomCheckbox />
-          <input className ="reg-form__sumbit" type="submit" value="Submit" formAction="/chartPage" />
+          <InputWithLabel
+            type="text"
+            name="username"
+            placeholder="Username"
+            inputClass="input-with-label input-with-label--login-reg" />
+          <InputWithLabel
+            type="email"
+            name="email"
+            placeholder="Email"
+            inputClass="input-with-label input-with-label--login-reg"
+          />
+          <InputWithLabel
+          type="password"
+          name="password"
+          placeholder="Password"
+          inputClass="input-with-label input-with-label--login-reg"
+        />
+          <CustomCheckbox
+            blockClass="reg-form__checkbox"
+            labelClass="checkbox-label"
+            inputId="interesting"
+            inputClass="checkbox-input"
+            checkmarkClass="checkmark checkmark--log-reg"
+           />
+          <input
+            className ="reg-form__sumbit"
+            type="submit"
+            value="Submit"
+            formAction="/chartPage"
+          />
           <Link text="Already have an account?" linkClass="reg-form__forgot" path="/login"/>
         </form>
 
