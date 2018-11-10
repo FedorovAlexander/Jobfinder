@@ -1,0 +1,56 @@
+.log-form {
+  box-sizing: border-box;
+  min-width: 330px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+
+  color: #56687b;
+}
+
+.log-form__title {
+  margin-bottom: 40px;
+
+  text-align: center;
+
+  font-size: 40px;
+}
+
+.log-form__sumbit {
+  width: 330px;
+  height: 40px;
+  margin-top: 40px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  background: #1FCE6D;
+
+  font-size: 12px;
+  font-size: 20px;
+}
+
+.log-form__checkbox {
+  margin-top: 40px;
+
+  font-size: 16px;
+}
+
+.log-form__forgot {
+  display: block;
+
+  margin-top: 20px;
+
+  transition: all 0.1s linear;
+  text-align: center;
+
+  color: #56687b;
+
+  font-size: 20px;
+}
+
+.log-form__forgot:hover {
+  color: #a299b4;
+}
