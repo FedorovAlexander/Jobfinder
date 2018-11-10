@@ -3,9 +3,9 @@ import './Link.css';
 
 function LinkWithImg({ text, linkClass, path }) {
   return (
-    <a href={path} className={linkClass}>
+    <div className={linkClass}>
       {text}
-    </a>
+    </div>
   )
 }
 
