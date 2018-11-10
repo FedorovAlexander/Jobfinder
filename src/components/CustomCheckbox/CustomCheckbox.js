@@ -5,7 +5,7 @@ const CustomCheckbox = ({blockClass, labelClass, labelText, inputClass, checkmar
   return (
     <div className={blockClass}>
       <label className={labelClass} htmlFor={inputId}>
-        Accept rules and conditions
+        {labelText}
         <input id={inputId} className={inputClass} type="checkbox" value="" />
         <span className={checkmarkClass}></span>
       </label>

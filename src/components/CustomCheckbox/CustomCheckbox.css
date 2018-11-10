@@ -9,13 +9,14 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-   user-select: none;
+  user-select: none;
 
-   font-size: 20px;
-   outline: none;
+  outline: none;
+
+  font-size: 20px;
 }
 
-.checkbox-input[type="checkbox"]:focus + checkbox-label::before {
+.checkbox-input[type="checkbox"]:focus+checkbox-label::before {
   outline: none;
 }
 
@@ -28,13 +29,12 @@
   cursor: pointer;
 
   opacity: 0;
-
   outline: none;
 }
 
-input[type="checkbox"]{
-        display: none;
-    }
+input[type="checkbox"] {
+  display: none;
+}
 
 .checkmark {
   position: absolute;
@@ -51,13 +51,22 @@ input[type="checkbox"]{
   background-color: #435160;
 }
 
-.checkbox-label:hover input ~ .checkmark--log-reg {
+.checkmark--vac {
+  background-color: lightgrey;
+}
+
+.checkbox-label:hover input~.checkmark--log-reg {
   background-color: #435160;
 }
 
-.checkbox-label input:checked ~ .checkmark--log-reg {
-  background-color: #435160;
+.checkbox-label input:checked~.checkmark--log-reg {
   outline: none;
+  background-color: #435160;
+}
+
+.checkbox-label input:checked~.checkmark--vac {
+  outline: none;
+  background-color: lightgrey;
 }
 
 .checkmark:after {
@@ -68,7 +77,7 @@ input[type="checkbox"]{
   content: "";
 }
 
-.checkbox-label input:checked ~ .checkmark:after {
+.checkbox-label input:checked~.checkmark:after {
   display: block;
 }
 
@@ -83,5 +92,9 @@ input[type="checkbox"]{
 }
 
 .checkbox-label .checkmark--log-reg:after {
+  background: #2E3740;
+}
+
+.checkbox-label .checkmark--vac:after {
   background: #2E3740;
 }
