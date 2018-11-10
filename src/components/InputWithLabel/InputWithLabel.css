@@ -1,0 +1,20 @@
+.input-with-label {
+  width: 100%;
+  padding: 20px 0px;
+
+  border: none;
+  border-bottom: 1px solid #435160;
+  background-color: #2E3740;
+}
+
+::-webkit-input-placeholder {
+  color: #56687b;
+
+  font-size: 18px;
+}
+
+::-moz-placeholder {
+  color: #56687b;
+
+  font-size: 18px;
+}
