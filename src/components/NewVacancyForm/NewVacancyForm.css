@@ -3,6 +3,7 @@
   top: -75px;
   box-sizing: border-box;
   min-width: 290px;
+  max-width: 750px;
   padding-right: 25px;
   padding-left: 25px;
   padding-top: 15px;
@@ -11,6 +12,7 @@
   color: #56687b;
 
   background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .new-vacancy-form__title {
