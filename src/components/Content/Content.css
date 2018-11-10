@@ -4,9 +4,9 @@
   padding-top: 232px;
   padding-bottom: 50px;
 
-  background-image: url('../../img/moon.jpg');
+  background-image: url('../../img/floor.jpg');
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
 
   flex: 1;
 }

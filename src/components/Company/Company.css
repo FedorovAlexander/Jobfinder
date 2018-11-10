@@ -2,9 +2,9 @@
   width: 100%;
   padding-top: 232px;
 
-  background-image: url('../../img/moon.jpg');
+  background-image: url('../../img/floor.jpg');
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
 }
 
 .company__wrapper {
