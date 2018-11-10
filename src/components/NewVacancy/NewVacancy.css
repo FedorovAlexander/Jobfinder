@@ -1,2 +1,42 @@
+.new-vacancy {
+  width: 100%;
+  min-height: 100%;
+  padding-top: 232px;
+  padding-bottom: 50px;
+
   background-image: url('../../img/floor.jpg');
+  background-attachment: fixed;
   background-size: cover;
+}
+
+.new-vacancy__wrapper {
+  position: absolute;
+
+  display: block;
+
+  width: 100%;
+  min-height: 76vh;
+
+  background-color: #f4f4f4;
+}
+
+.new-vacancy__container {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .new-vacancy {
+    padding-top: 120px;
+  }
+}
