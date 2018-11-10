@@ -11,7 +11,7 @@ class Navigation extends Component {
     return (
           <nav className="navigation">
             <ul className="navigation__list">
-              <NavLink to="/" exact>
+              <NavLink to="/chartPage" exact>
                 <li className="navigation__list-item">
                 <LinkWithImg text="chart" textClass="navigation__text" linkClass="navigation__link navigation__link--chart" imgAlt="chart" imgClass="navigation__img navigation__img--chart" imagePath={assets.chartIcon}/>
                 </li>
