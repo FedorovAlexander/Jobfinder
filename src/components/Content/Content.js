@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Filters from '../Filters/Filters';
-import Footer from '../Footer/Footer';
+import ChartPageFooter from '../Footer/ChartPageFooter';
 import Chart from '../Chart/Chart';
 import {data} from '../../data/vacancies'
 
@@ -26,7 +26,7 @@ class Content extends Component {
             <Chart data={this.state.data} />
             <Filters  data={data}  setChange={this.changeData.bind(this)}/>
           </div>
-          <Footer />
+          <ChartPageFooter />
         </div>
       </section>
     );
