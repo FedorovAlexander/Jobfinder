@@ -8,11 +8,11 @@
   padding-left: 25px;
   padding-top: 15px;
   padding-bottom: 40px;
-
+  margin-bottom: 60px;
   color: #56687b;
-
+  border: 1px solid lightgrey;
   background-color: #fff;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px rgba(0.2, 0.2, 0.2, 0.2);
 }
 
 .new-vacancy-form__title {
@@ -48,7 +48,6 @@
 
 .new-vacancy-form__options-block .ui.selection.dropdown {
   width: 50%;
-  max-width: 220px;
   margin-right: 0;
 }
 
@@ -63,7 +62,6 @@
 
 .new-vacancy-form__options-block .ui.dropdown .menu .selected.item, .ui.dropdown.selected {
   margin-right: 0;
-  max-width: 220px;
 }
 
 .new-vacancy-form__options-block .ui.dropdown>.text {
