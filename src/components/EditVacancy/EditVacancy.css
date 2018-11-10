@@ -1,0 +1,37 @@
+.edit-vacancy {
+  width: 100%;
+  min-height: 100%;
+  padding-top: 230px;
+
+  background-image: url('../../img/floor.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.edit-vacancy__wrapper {
+  position: absolute;
+
+  display: block;
+
+  width: 100%;
+}
+
+.edit-vacancy__container {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .edit-vacancy {
+    padding-top: 160px;
+  }
+}
