@@ -44,6 +44,35 @@
   margin-top: 70px;
 }
 
+.new-vacancy-form__options-block .ui.selection.dropdown {
+  width: 50%;
+  max-width: 220px;
+  margin-right: 0;
+}
+
+.new-vacancy-form__options-block .ui.selection.dropdown .menu>.item {
+
+  margin-right: 0;
+}
+
+.new-vacancy-form__options-block .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
+  top: 30px;
+}
+
+.new-vacancy-form__options-block .ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+  margin-right: 0;
+  max-width: 220px;
+}
+
+.new-vacancy-form__options-block .ui.dropdown>.text {
+  font-size: 20px;
+}
+
+.new-vacancy-form__options-block .ui.selection.dropdown {
+  border-bottom: 1px solid lightgrey;
+  padding-top: 31px;
+}
+
 .new-vacancy-form__buttons-block {
   display: flex;
   flex-direction: row;
