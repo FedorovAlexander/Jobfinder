@@ -105,3 +105,9 @@
 .new-vacancy-form__button--cancel {
   background: lightgrey;
 }
+
+@media screen and (max-width: 800px) {
+  .new-vacancy-form {
+    top: -40px;
+  }
+}
