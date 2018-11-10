@@ -1,39 +1,53 @@
 .reg-form {
+  box-sizing: border-box;
+  min-width: 330px;
+  padding-right: 15px;
+  padding-left: 15px;
+
   color: #56687b;
-  min-width: 350px;
 }
 
 .reg-form__title {
-  font-size: 40px;
-  text-align: center;
   margin-bottom: 40px;
+
+  text-align: center;
+
+  font-size: 40px;
 }
 
 .reg-form__sumbit {
-  background: #1FCE6D;
-  border: 0;
-  width: 350px;
+  width: 330px;
   height: 40px;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 12px;
-  cursor: pointer;
   margin-top: 40px;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  background: #1FCE6D;
+
+  font-size: 12px;
   font-size: 20px;
 }
 
 .reg-form__checkbox {
   margin-top: 40px;
+
   font-size: 16px;
 }
 
 .reg-form__forgot {
   display: block;
-  text-align: center;
-  font-size: 20px;
+
   margin-top: 20px;
-  color: #56687b;
+
   transition: all 0.1s linear;
+  text-align: center;
+
+  color: #56687b;
+
+  font-size: 20px;
 }
 
 .reg-form__forgot:hover {
