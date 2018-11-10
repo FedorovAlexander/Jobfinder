@@ -3,8 +3,25 @@
   padding: 20px 0px;
 
   border: none;
+}
+
+.input-with-label--login-reg {
   border-bottom: 1px solid #435160;
   background-color: #2E3740;
+}
+
+.input-with-label--new-vacancy {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-left: 13px;
+  color: #444;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  background-color: #fff;
+  font-size: 18px;
 }
 
 ::-webkit-input-placeholder {
