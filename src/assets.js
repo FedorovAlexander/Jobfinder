@@ -1,5 +1,6 @@
 const assetsObject = {
   logoutIcon: require('./img/logout.svg'),
+  dogIcon: require('./img/dog.svg'),
   homeIcon: require('./img/home-button.svg'),
   userIcon: require('./img/user.svg'),
   settingsIcon: require('./img/settings.svg'),
