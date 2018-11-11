@@ -60,7 +60,7 @@ const NewVacancyForm = () => {
 
         </div>
         <div className="new-vacancy-form__comments-block">
-
+          <h2 className="new-vacancy-form__comments-title">Comments</h2>
         </div>
 
         <div className="new-vacancy-form__buttons-block">
