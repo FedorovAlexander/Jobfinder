@@ -21,8 +21,8 @@ class Chart extends Component {
   render() {
     return (<section className="chart">
       <PageTitle titleClass="page-title" titleText="Chart" />
-      {this.state.pageOfItems.map(item => (
-        <Card key={item.id}
+      {this.state.pageOfItems.map((item, index) => (
+        <Card key={Math.random()}
           position={item.position}
           company={item.companyName}
           salary={item.salary}
