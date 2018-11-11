@@ -49,15 +49,12 @@
 .new-vacancy-form__options-block .ui.selection.dropdown {
   width: 50%;
   margin-right: 0;
+
 }
 
 .new-vacancy-form__options-block .ui.selection.dropdown .menu>.item {
 
   margin-right: 0;
-}
-
-.new-vacancy-form__options-block .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
-  top: 30px;
 }
 
 .new-vacancy-form__options-block .ui.dropdown .menu .selected.item, .ui.dropdown.selected {
@@ -71,6 +68,8 @@
 .new-vacancy-form__options-block .ui.selection.dropdown {
   border-bottom: 1px solid lightgrey;
   padding-top: 31px;
+  padding-top: 15px;
+  margin-top: 19px;
 }
 
 .new-vacancy-form__buttons-block {

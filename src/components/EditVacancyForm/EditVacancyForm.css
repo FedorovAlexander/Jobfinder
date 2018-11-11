@@ -62,7 +62,7 @@
 }
 
 .edit-vacancy-form__options-block .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
-  top: 30px;
+  top: 15px;
 }
 
 .edit-vacancy-form__options-block .ui.dropdown .menu .selected.item, .ui.dropdown.selected {
@@ -77,6 +77,8 @@
   padding-top: 31px;
 
   border-bottom: 1px solid lightgrey;
+  padding-top: 15px;
+  margin-top: 19px;
 }
 
 .edit-vacancy-form__buttons-block {
