@@ -8,6 +8,7 @@ const assets = require('../../assets.js');
 
 
 class Navigation extends Component {
+
   render() {
     return (
           <nav className="navigation">
@@ -25,7 +26,7 @@ class Navigation extends Component {
                 <li className="navigation__list-item navigation__list-item--user">
                   <img className="userImg" src={assets.userIcon} alt="user"/>
                   <PopupUser
-                    user="guest"
+                    user='guest'
                     buttonContent="Log Out"
                   ></PopupUser>
                 </li>

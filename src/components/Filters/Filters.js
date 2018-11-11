@@ -17,6 +17,34 @@ class Filters extends Component {
       }
   }
 
+  salaryButtonClick = (event) => {
+    const dataItems = this.props.data;
+    const filteredData = this.state.data.filter(dataItem => {
+      return dataItems.sort((a,b) => {
+        return parseInt(b.salary) - parseInt(a.salary)
+      })
+    });
+    if(filteredData) {this.setData(filteredData)};
+  }
+  worktimeButtonClick = (event) => {
+    const dataItems = this.props.data;
+    const filteredData = this.state.data.filter(dataItem => {
+      return dataItems.sort((a,b) => {
+        return parseInt(b.minutes) - parseInt(a.minutes)
+      })
+    });
+    if(filteredData.length) {this.setData(filteredData)};
+  }
+  roadtimeButtonClick = (event) => {
+    const dataItems = this.props.data;
+    const filteredData = this.state.data.filter(dataItem => {
+      return dataItems.sort((a,b) => {
+        return parseInt(b.roadTime) - parseInt(a.roadTime)
+      })
+    });
+    if(filteredData.length) {this.setData(filteredData)};
+  }
+
   onSearchChange = (event) => {
       const filteredData = this.state.data.filter(dataItem => {
         return dataItem.position.toLowerCase().includes(event.target.value.toLowerCase())
@@ -31,9 +59,9 @@ class Filters extends Component {
         <h2 className="filters__title">Sort by</h2>
         <Select />
         <div className="filters__buttons-block">
-          <FilterButton text="Salary" buttonClass="filters__button" />
-          <FilterButton text="Work Time" buttonClass="filters__button" />
-          <FilterButton text="Road Time" buttonClass="filters__button" />
+          <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
+          <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
+          <FilterButton buttonClick={this.roadtimeButtonClick} text="Road Time" buttonClass="filters__button" />
         </div>
       </section>
     );
