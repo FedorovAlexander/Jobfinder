@@ -99,6 +99,10 @@
   font-size: 22px;
 }
 
+.card__salary-block {
+  margin-top: 3.5px;
+}
+
 @media screen and (max-width: 800px) {
   .card {
     padding-right: 10px;
