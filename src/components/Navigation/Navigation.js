@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import LinkWithImg from '../LinkWithImg/LinkWithImg';
+import PopupUser from '../Popup/Popup';
 import './Navigation.css';
 
 const assets = require('../../assets.js');
@@ -21,11 +22,13 @@ class Navigation extends Component {
               <LinkWithImg text="board" textClass="navigation__text" linkClass="navigation__link navigation__link--board" imgAlt="board" imgClass="navigation__img" imagePath={assets.boardIcon}/>
               </li>
               </NavLink>
-              <NavLink to="/user">
-                <li className="navigation__list-item">
-                  <LinkWithImg text="guest" textClass="navigation__text" linkClass="navigation__link navigation__link--user" imgAlt="user" imgClass="navigation__img" imagePath={assets.userIcon}/>
+                <li className="navigation__list-item navigation__list-item--user">
+                  <img className="userImg" src={assets.userIcon} alt="user"/>
+                  <PopupUser
+                    user="guest"
+                    buttonContent="Log Out"
+                  ></PopupUser>
                 </li>
-              </NavLink>
             </ul>
           </nav>
     );
