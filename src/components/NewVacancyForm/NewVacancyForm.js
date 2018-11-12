@@ -71,7 +71,7 @@ const NewVacancyForm = () => {
 
           <FormButton
             buttonClass="new-vacancy-form__button new-vacancy-form__button--cancel"
-            text="Cancel" path=""
+            text="Cancel" path="/chartPage"
           />
         </div>
       </form>
