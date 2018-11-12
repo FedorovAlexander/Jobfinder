@@ -26,7 +26,7 @@ class Chart extends Component {
           position={item.position}
           company={item.companyName}
           salary={item.salary}
-          status={item.status}/>
+          vacancyStatus={item.status}/>
       ))}
       <Pagination
          items={this.props.data}

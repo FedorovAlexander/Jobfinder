@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css';
 
-const Card = ({ position, company, salary, status }) => {
+const Card = ({ position, company, salary, status, goToVacancy, vacancyStatus }) => {
 
   return (
     <div className="card">
@@ -11,7 +11,7 @@ const Card = ({ position, company, salary, status }) => {
       </div>
       <div className="card__position-company-block">
         <h2 className="card__position">
-          <Link to="/vacancy">
+          <Link to="/vacancy" onClick={goToVacancy}>
             <div className="card__link card__link--position">
               {position}
             </div>
@@ -20,13 +20,14 @@ const Card = ({ position, company, salary, status }) => {
       <div className="card__company">
         <Link to="/company">
           <div className="card__link card__link--company">
-          { company}
+          {company}
           </div>
         </Link>
       </div>
       </div>
       <div className="card__salary-block">
         <span className="card__salary">{"$" + salary + "/year"}</span>
+        {/* <span className="card__status">{vacancyStatus}</span> */}
       </div>
     </div>
   )
