@@ -19,22 +19,25 @@ class Filters extends Component {
 
   salaryButtonClick = (event) => {
     const dataItems = this.props.data;
-    const filteredData = this.state.data.filter(dataItem => {
+    const filteredData = this.props.data.filter(dataItem => {
       return dataItems.sort((a,b) => {
-        return parseInt(b.salary) - parseInt(a.salary)
+        return b.salary - a.salary
+
       })
     });
     if(filteredData) {this.setData(filteredData)};
   }
+
   worktimeButtonClick = (event) => {
     const dataItems = this.props.data;
     const filteredData = this.state.data.filter(dataItem => {
       return dataItems.sort((a,b) => {
-        return parseInt(b.minutes) - parseInt(a.minutes)
+        return parseInt(a.minutes) - parseInt(b.minutes)
       })
     });
     if(filteredData.length) {this.setData(filteredData)};
   }
+
   roadtimeButtonClick = (event) => {
     const dataItems = this.props.data;
     const filteredData = this.state.data.filter(dataItem => {
