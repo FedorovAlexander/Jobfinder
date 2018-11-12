@@ -8,6 +8,9 @@
 .input-with-label--login-reg {
   border-bottom: 1px solid #435160;
   background-color: #2E3740;
+  color: #56687b;
+  font-size: 18px;
+  outline: none;
 }
 
 .input-with-label--new-vacancy {

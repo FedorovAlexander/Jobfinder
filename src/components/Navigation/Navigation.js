@@ -5,7 +5,7 @@ import PopupUser from '../Popup/Popup';
 import './Navigation.css';
 
 const assets = require('../../assets.js');
-
+const userName = sessionStorage.getItem('login');
 
 class Navigation extends Component {
 
@@ -26,7 +26,7 @@ class Navigation extends Component {
                 <li className="navigation__list-item navigation__list-item--user">
                   <img className="userImg" src={assets.userIcon} alt="user"/>
                   <PopupUser
-                    user='guest'
+                    user=""
                     buttonContent="Log Out"
                   ></PopupUser>
                 </li>

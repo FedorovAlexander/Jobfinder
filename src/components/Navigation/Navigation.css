@@ -34,14 +34,15 @@
 }
 
 .navigation__list-item--user {
-  width: 100px;
   position: relative;
+
+  width: 35px;
 }
 
 .userImg {
   position: absolute;
+  top: -5px;
   left: -4px;
-  top: -2px;
 }
 
 .ui.button {
@@ -76,27 +77,40 @@
 }
 
 .ui.button.logoutButton {
-  color: #444;
+  padding-left: 30px;
+
   letter-spacing: normal;
   text-transform: none;
-  padding-left: 30px;
+
+  color: #444;
 }
 
 .ui.button.logoutButton:hover {
   color: #444 !important;
 }
 
-.logoutImg {
-  position: absolute;
+.ui.bottom.right.popup.transition.visible {
+  top: 36px;
+  right: 20px;
+
+  text-align: right;
 }
 
-.nav-link--popup {
+.logoutImg {
+  position: absolute;
+  right: 80px;
+  bottom: 13px;
+}
 
+.userName  {
+  margin-bottom: 20px;
+
+  color: #444;
+
+  font-size: 20px;
 }
 
 .navigation__link--user {
-  min-width: 70px;
-
   flex: 1;
 }
 
@@ -116,13 +130,16 @@
   }
 
   .navigation__link--user {
-    min-width: 20px;
-    margin-right: 0;
     width: 45px;
+    margin-right: 0;
   }
 
   .navigation__list-item--user {
-    width: 45px;
+    margin-right: 18px;
+  }
+
+  .ui.bottom.right.popup.transition.visible {
+    right: 25px !important;
   }
 
   .ui.button.nav-link {

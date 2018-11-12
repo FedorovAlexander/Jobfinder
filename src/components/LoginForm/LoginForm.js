@@ -5,16 +5,29 @@ import Link from '../Link/Link';
 import '../LoginForm/LoginForm.css';
 
 class LoginForm extends Component {
+  constructor() {
+    super();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    // event.preventDefault();
+    const data = new FormData(event.target);
+
+    sessionStorage.setItem('login', event.target[0].value)
+  }
+
   render() {
+
     return (
       <div>
         <section className="log-form">
           <h1 className="log-form__title">Log In</h1>
-          <form>
+          <form onSubmit={this.handleSubmit} action="/chartPage">
             <InputWithLabel
-              type="email"
-              name="email"
-              placeholder="Email"
+              type="text"
+              name="login"
+              placeholder="Login"
               inputClass="input-with-label input-with-label--login-reg"
             />
             <InputWithLabel
