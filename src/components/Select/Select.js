@@ -24,11 +24,12 @@ const statusOptions = [
   }
 ]
 
-const Select = () => (
-  <Dropdown placeholder='Status'
-     fluid multiple selection clearable
+const Select = ({selectChange}) => (
+  <Dropdown
+    placeholder='Status'
+    fluid selection clearable
      options={statusOptions}
-
+     onSelect={selectChange}
     />
 )
 
