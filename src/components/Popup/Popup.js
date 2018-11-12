@@ -10,7 +10,7 @@ const PopupUser = ({color, user, buttonContent, userIcon}) => (
     content={
         <NavLink to="/">
         <img className="logoutImg" src={assets.logoutIcon} alt="logout"/>
-        <div className="userName">{userName}</div>
+        <div className="userName">{userName === "" ? "Guest" : userName}</div>
         <Button
           content={buttonContent}
           className="logoutButton"
