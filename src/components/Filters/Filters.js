@@ -55,12 +55,19 @@ class Filters extends Component {
       if(filteredData.length) this.setData(filteredData);
     };
 
+  selectStatus = (event) => {
+    const filteredData = this.state.data.filter(dataItem => {
+      return dataItem.status === "Offer";
+    })
+    if(filteredData.length) this.setData(filteredData);
+  }
+
   render() {
     return (
       <section className="filters">
         <SearchBox searchChange={this.onSearchChange} />
         <h2 className="filters__title">Sort by</h2>
-        <Select />
+        <Select selectChange={this.selectStatus}/>
         <div className="filters__buttons-block">
           <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
           <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
