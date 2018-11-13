@@ -67,7 +67,7 @@
 }
 
 .card__link {
-  transition: all 0.1s linear;
+  transition: color 0.1s linear;
   text-decoration: none;
 
   color: #444;
