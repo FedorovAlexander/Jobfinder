@@ -36,12 +36,61 @@
 .board .header .header__container {
   max-width: 0;
 }
+/* Trello Cards Item Quantity */
+.sc-gzVnrw.dZkyH span {
+  display: none;
+}
 
-@media screen and (max-width: 800px) {
-  .board {
-    flex-direction: column;
-  }
-  .board__img {
-    max-width: 250px;
+/* Trello Add Card Button */
+.sc-jzJRlG.BFmJH {
+  display: block;
+
+  width: 89.3%;
+
+  background-color: #e3e3e3;
+}
+/* Trello Delete Card Img */
+.sc-kpOJdX.ejXrMv {
+  width: 12px;
+  height: 12px;
+}
+
+.sc-kpOJdX.ejXrMv {
+  top: 8px;
+  right: 5px;
+}
+
+.sc-kpOJdX.ejXrMv {
+  background-color: #444;
+  border: 1px solid #444;
+}
+/* Trello Column  */
+.bsakmj {
+  max-height: 73vh !important;
+}
+/* Trello Salary Text */
+.sc-gqjmRU.ejFyfB.sc-gzVnrw.dZkyH {
+  font-size: 12px;
+}
+/* Trello Board Main Block */
+.sc-bdVaJa.eVDmWl {
+  position: relative;
+  z-index: 50;
+  bottom: -20px;
+
+  width: -webkit-fill-available;
+  width: -moz-available;
+  height: auto;
+  margin-bottom: 30px;
+  margin-bottom: 59px;
+  padding-top: 60px;
+
+  background-color: #669999;
+}
+
+@media screen and (max-height: 630px) {
+  /* Trello Column */
+  .bsakmj {
+    max-height: 50vh !important;
   }
 }
