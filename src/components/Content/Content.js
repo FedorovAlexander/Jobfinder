@@ -15,7 +15,7 @@ class Content extends Component {
     }
   changeData(newData) {
       this.setState({
-          data: newData
+          vacancies: newData
       });
    }
   render() {

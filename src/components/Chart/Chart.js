@@ -12,7 +12,7 @@ class Chart extends Component {
   constructor(props) {
     super();
     this.state = {
-        data: props.data,
+        vacancies: props.vacancies,
         pageOfItems: []
     };
     this.onChangePage = this.onChangePage.bind(this);
