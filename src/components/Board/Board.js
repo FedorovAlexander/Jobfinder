@@ -1,21 +1,24 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Board.css';
-import Header from '../Header/Header';
+import HeaderBoardPage from '../Header/HeaderBoardPage';
 import Footer from '../Footer/Footer';
-const assets = require('../../assets.js');
+import Board from 'react-trello';
+import {data} from '../../data/trelloData'
 
-const Error = ({ text }) => {
-
-  return (
-    <div>
-      <Header />
+export class KanbanBoard extends Component {
+  render() {
+    return (<div>
+      <HeaderBoardPage/>
       <section className="board">
-        <img className="board__img" src={assets.trelloIcon} alt="dog" />
-        <h1 className="board__title">New Awesome Kanban Board is Comming Soon!</h1>
+        <div className="board__wrapper">
+          <div className="board__container">
+            <Board editable draggable data={data}/>
+          </div>
+        </div>
       </section>
-      <Footer />
-    </div>
-  );
+      <Footer/>
+    </div>);
+  }
 }
 
-export default Error;
+export default KanbanBoard;
