@@ -12,7 +12,7 @@ class LoginForm extends Component {
 
   handleSubmit(event) {
     // event.preventDefault();
-    const data = new FormData(event.target);
+    // const data = new FormData(event.target);
 
     sessionStorage.setItem('login', event.target[0].value)
   }
