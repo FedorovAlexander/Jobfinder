@@ -4,6 +4,7 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   margin-right: 10px;
   margin-left: 10px;
@@ -21,10 +22,15 @@
   flex: 3;
 }
 
+.login-page {
+  font-size: 20px
+}
+
 @media screen and (min-width: 800px) {
   .chart {
     padding-right: 40px;
     padding-left: 40px;
+    justify-content: center;
   }
 }
 

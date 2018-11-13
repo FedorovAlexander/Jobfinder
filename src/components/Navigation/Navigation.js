@@ -27,7 +27,7 @@ class Navigation extends Component {
                   <img className="userImg" src={assets.userIcon} alt="user"/>
                   <PopupUser
                     user=""
-                    buttonContent="Log Out"
+                    buttonContent={!userName ? 'Log In' : 'Log Out'}
                   ></PopupUser>
                 </li>
             </ul>
