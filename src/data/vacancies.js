@@ -1,4 +1,4 @@
-export const data = [
+export const vacancies = [
   {
     "id": 1,
     "companyName": "MSBA Boston, MA 02109",
