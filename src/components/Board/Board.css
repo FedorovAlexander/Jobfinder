@@ -48,7 +48,7 @@
 .sc-jzJRlG.BFmJH {
   display: block;
 
-  width: 89.3%;
+  width: 96.3%;
 
   background-color: #e3e3e3;
 }
@@ -64,8 +64,12 @@
 }
 
 .sc-kpOJdX.ejXrMv {
-  border: 1px solid #444;
-  background-color: #444;
+  border: none !important;
+  background-color: transparent;
+}
+/* Delete item cross */
+.ejXrMv:before, .ejXrMv:after {
+  background: #444 !important;
 }
 /* Trello Column  */
 .bsakmj {
@@ -87,12 +91,25 @@
   margin-bottom: 58px;
   padding-top: 40px;
   padding-left: 20px;
+  padding-right: 20px;
 
   background-color: #669999;
 }
 /* Trello Boad Add Coloumn button */
-.ehYibH {
+.sc-kAzzGY.ehYibH {
   margin-left: 13px;
+}
+
+/* Add and Cancel trello buttons */
+.sc-eNQAEJ.blgqfr {
+  background: #1FCE6D;
+  font-family: Lato;
+  border: none;
+}
+
+.sc-hMqMXs.FoMgK {
+  font-family: Lato;
+  border: none;
 }
 
 @media screen and (max-height: 630px) {
