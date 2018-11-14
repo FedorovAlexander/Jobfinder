@@ -64,8 +64,8 @@
 }
 
 .sc-kpOJdX.ejXrMv {
-  background-color: #444;
   border: 1px solid #444;
+  background-color: #444;
 }
 /* Trello Column  */
 .bsakmj {
@@ -84,11 +84,15 @@
   width: -webkit-fill-available;
   width: -moz-available;
   height: auto;
-  margin-bottom: 30px;
-  margin-bottom: 59px;
-  padding-top: 60px;
+  margin-bottom: 58px;
+  padding-top: 40px;
+  padding-left: 20px;
 
   background-color: #669999;
+}
+/* Trello Boad Add Coloumn button */
+.ehYibH {
+  margin-left: 13px;
 }
 
 @media screen and (max-height: 630px) {
