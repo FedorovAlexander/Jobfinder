@@ -1,7 +1,7 @@
 .ui.selection.dropdown {
   color: #444;
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey !important;
   border-radius: 0px;
   background-color: #fff;
 
@@ -11,13 +11,17 @@
 .ui.selection.dropdown:hover {
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
   border-radius: 0px;
+}
+
+.ui.selection.dropdown:hover {
+  border-bottom: 1px solid lightgrey;
 }
 
 .ui.active.visible.fluid.selection.dropdown:hover {
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .ui.active.selection.dropdown {
