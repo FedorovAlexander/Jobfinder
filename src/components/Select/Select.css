@@ -9,9 +9,15 @@
 }
 
 .ui.selection.dropdown:hover {
-  border: none;
+  border-left: none;
+  border-right: none;
   border-bottom: 1px solid grey;
   border-radius: 0px;
+}
+
+.ui.active.visible.fluid.selection.dropdown:hover {
+  border: none;
+  border-bottom: 1px solid grey;
 }
 
 .ui.active.selection.dropdown {
@@ -23,18 +29,21 @@
 }
 
 .ui.selection.active.dropdown .menu {
-  border: none;
+  border-left: none;
+  border-right: none;
   border-radius: 0px;
   box-shadow: none;
 }
 
 .ui.selection.active.dropdown:hover {
-  border: none;
+  border-left: none;
+  border-right: none;
   box-shadow: none;
 }
 
 .ui.selection.active.dropdown:hover .menu {
-  border: none;
+  border-left: none;
+  border-right: none;
   box-shadow: none;
 }
 
