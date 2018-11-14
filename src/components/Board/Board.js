@@ -3,7 +3,11 @@ import './Board.css';
 import HeaderBoardPage from '../Header/HeaderBoardPage';
 import Footer from '../Footer/Footer';
 import Board from 'react-trello';
-import {data} from '../../data/trelloData'
+import {data} from '../../data/trelloData';
+import { Link } from 'react-router-dom';
+
+const userName = sessionStorage.getItem('login');
+
 
 export class KanbanBoard extends Component {
   render() {
@@ -12,7 +16,11 @@ export class KanbanBoard extends Component {
       <section className="board">
         <div className="board__wrapper">
           <div className="board__container">
-            <Board editable draggable data={data}/>
+            {
+              !userName ? <div className="login-page login-page--board"><Link to="/login">Log In</Link> to See Your Job Board</div> :
+              <Board editable draggable data={data}/>
+            }
+
           </div>
         </div>
       </section>

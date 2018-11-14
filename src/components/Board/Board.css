@@ -18,7 +18,6 @@
 }
 
 .board__container {
-  position: relative;
   position: fixed;
   top: 0;
   right: 0;
@@ -35,6 +34,10 @@
 
 .board .header .header__container {
   max-width: 0;
+}
+
+.login-page--board {
+  align-self: center;
 }
 /* Trello Cards Item Quantity */
 .sc-gzVnrw.dZkyH span {
