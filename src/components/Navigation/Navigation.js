@@ -20,7 +20,7 @@ class Navigation extends Component {
               </NavLink>
               <NavLink to="/board">
               <li className="navigation__list-item">
-              <LinkWithImg text="board" textClass="navigation__text" linkClass="navigation__link navigation__link--board" imgAlt="board" imgClass="navigation__img" imagePath={assets.boardIcon}/>
+              <LinkWithImg text="board" textClass="navigation__text" linkClass="navigation__link navigation__link--board" imgAlt="board" imgClass="navigation__img" imagePath={assets.trelloIcon}/>
               </li>
               </NavLink>
                 <li className="navigation__list-item navigation__list-item--user">
