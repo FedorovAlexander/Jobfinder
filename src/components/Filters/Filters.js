@@ -17,7 +17,6 @@ class Filters extends Component {
 
   salaryButtonClick = () => {
     this.setData(this.props.data.sort((a,b) => {
-      console.log(this.props.data)
         return b.salary - a.salary
     }))
 
@@ -42,12 +41,12 @@ class Filters extends Component {
       if(filteredData.length) this.setData(filteredData);
     };
 
-  selectStatus = (event) => {
-    const filteredData = this.state.data.filter(dataItem => {
-      return dataItem.status === "Offer";
-    })
-    if(filteredData.length) this.setData(filteredData);
-  }
+  selectStatus = (e, { value}) => {
+    const filteredData = this.state.filter(dataItem => {
+        return value ? dataItem.status.toLowerCase() === value.toLowerCase() : true
+    });
+    this.setData(filteredData)
+  };
 
   render() {
     return (
