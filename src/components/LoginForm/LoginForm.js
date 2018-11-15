@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import FormButton from '../FormButton/FormButton';
-import Link from '../Link/Link';
+// import Link from '../Link/Link';
+import {Link} from 'react-router-dom';
 import '../LoginForm/LoginForm.css';
 
 class LoginForm extends Component {
@@ -11,9 +12,6 @@ class LoginForm extends Component {
   }
 
   handleSubmit(event) {
-    // event.preventDefault();
-    // const data = new FormData(event.target);
-
     sessionStorage.setItem('login', event.target[0].value)
   }
 
@@ -41,7 +39,7 @@ class LoginForm extends Component {
               buttonClass="log-form__sumbit"
               text="Submit" path="/chartPage"
             />
-            <Link text="Do not have an account?" linkClass="log-form__forgot" path="/registration"/>
+            <Link to='/registration'><div className="log-form__forgot">Do not have an account?</div></Link> 
           </form>
 
         </section>
