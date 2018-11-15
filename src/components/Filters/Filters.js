@@ -15,19 +15,6 @@ class Filters extends Component {
     this.setData = props.setChange.bind(this);
   }
 
-  // salaryButtonClick = () => {
-  //   const dataItems = this.props.data;
-  //   const filteredData = this.props.data.filter(dataItem => {
-  //     return dataItems.sort((a,b) => {
-  //       return b.salary - a.salary
-
-  //     })
-  //   });
-  //   if(filteredData) {this.setData(filteredData)};
-  // }
-
-
-
   salaryButtonClick = () => {
     this.setData(this.props.data.sort((a,b) => {
       console.log(this.props.data)
