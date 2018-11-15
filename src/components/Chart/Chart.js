@@ -23,7 +23,8 @@ class Chart extends Component {
   }
 
   render() {
-    return (<section className="chart">
+    return (
+    <section className="chart">
       <PageTitle titleClass="page-title" titleText="Chart" />
       {!userName ? <div className="login-page"><Link to="/login">Log In</Link> to See Your Job Chart</div> : this.state.pageOfItems.map((item, index) => (
         <Card key={Math.random()}
@@ -33,8 +34,9 @@ class Chart extends Component {
           salary={item.salary}
           vacancyStatus={item.status}/>
       ))}
-      {!userName ? <div></div> :<Pagination items={this.props.vacancies} onChangePage={this.onChangePage.bind(this)}/>}
+      {!userName ? <div></div> :<Pagination onChangePage={this.onChangePage.bind(this)}/>}
     </section>);
   }
 }
+ 
 export default Chart;
