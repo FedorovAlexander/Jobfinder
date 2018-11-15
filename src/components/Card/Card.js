@@ -18,7 +18,7 @@ class Card extends Component {
         </div>
         <div className="card__position-company-block">
           <h2 className="card__position">
-            <Link to="/vacancy" onClick={this.props.goToVacancy}>
+            <Link to="/vacancy/">
               <div className="card__link card__link--position">
                 {this.props.position}
               </div>
