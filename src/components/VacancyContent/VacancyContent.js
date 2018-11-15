@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import ItemsList from '../ItemsList/ItemsList';
 import Comments from '../Comments/Comments';
 import PageTitle from '../PageTitle/PageTitle';
-import {vacancies} from '../../data/vacancies';
 //{vacancyTitle, vacancyDescription, company}
 
 

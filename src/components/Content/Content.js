@@ -23,7 +23,7 @@ class Content extends Component {
       <section className="content">
         <div className="content__wrapper">
           <div className="content__container">
-            <Chart data={this.state.vacancies} />
+            <Chart vacancies={this.state.vacancies} />
             <Filters  data={vacancies}  setChange={this.changeData.bind(this)}/>
           </div>
           <ChartPageFooter />

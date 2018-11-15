@@ -12,41 +12,41 @@ class Filters extends Component {
         data: props.data,
         searchfield: ''
     };
-      this.setData = (data) => {
-          props.setChange(data);
-      }
+    this.setData = props.setChange.bind(this);
   }
 
-  salaryButtonClick = (event) => {
-    const dataItems = this.props.data;
-    const filteredData = this.props.data.filter(dataItem => {
-      return dataItems.sort((a,b) => {
+  // salaryButtonClick = () => {
+  //   const dataItems = this.props.data;
+  //   const filteredData = this.props.data.filter(dataItem => {
+  //     return dataItems.sort((a,b) => {
+  //       return b.salary - a.salary
+
+  //     })
+  //   });
+  //   if(filteredData) {this.setData(filteredData)};
+  // }
+
+
+
+  salaryButtonClick = () => {
+    this.setData(this.props.data.sort((a,b) => {
+      console.log(this.props.data)
         return b.salary - a.salary
+    }))
 
-      })
-    });
-    if(filteredData) {this.setData(filteredData)};
-  }
+  };
 
-  worktimeButtonClick = (event) => {
-    const dataItems = this.props.data;
-    const filteredData = this.state.data.filter(dataItem => {
-      return dataItems.sort((a,b) => {
-        return parseInt(a.minutes) - parseInt(b.minutes)
-      })
-    });
-    if(filteredData.length) {this.setData(filteredData)};
-  }
+  worktimeButtonClick = () => {
+    this.setData(this.state.data.sort((a,b) => {
+        return b.minutes - a.minutes
+    }))
+  };
 
-  roadtimeButtonClick = (event) => {
-    const dataItems = this.props.data;
-    const filteredData = this.state.data.filter(dataItem => {
-      return dataItems.sort((a,b) => {
-        return parseInt(b.roadTime) - parseInt(a.roadTime)
-      })
-    });
-    if(filteredData.length) {this.setData(filteredData)};
-  }
+  roadtimeButtonClick = () => {
+    this.setData(this.state.data.sort((a,b) => {
+        return b.roadTime - a.roadTime
+    }))
+  };
 
   onSearchChange = (event) => {
       const filteredData = this.state.data.filter(dataItem => {
@@ -69,7 +69,7 @@ class Filters extends Component {
         <h2 className="filters__title">Sort by</h2>
         <Select selectChange={this.selectStatus}/>
         <div className="filters__buttons-block">
-          <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
+          <FilterButton buttonClick={this.salaryButtonClick.bind(this)} text="Salary" buttonClass="filters__button" />
           <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
           <FilterButton buttonClick={this.roadtimeButtonClick} text="Road Time" buttonClass="filters__button" />
         </div>

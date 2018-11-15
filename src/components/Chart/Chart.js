@@ -12,10 +12,10 @@ class Chart extends Component {
   constructor(props) {
     super();
     this.state = {
-        vacancies: props.vacancies,
-        pageOfItems: []
+        data: props.vacancies,
+        pageOfItems: props.vacancies,
+        items: props.vacancies
     };
-    this.onChangePage = this.onChangePage.bind(this);
   }
 
   onChangePage(pageOfItems) {
@@ -33,10 +33,7 @@ class Chart extends Component {
           salary={item.salary}
           vacancyStatus={item.status}/>
       ))}
-      {!userName ? <div></div> :<Pagination
-         items={this.props.data}
-         onChangePage={this.onChangePage}
-       />}
+      {!userName ? <div></div> :<Pagination items={this.props.vacancies} onChangePage={this.onChangePage.bind(this)}/>}
     </section>);
   }
 }
