@@ -79,6 +79,7 @@
 
 .card__link--company {
   font-size: 18px;
+  display: inline-flex;
 }
 
 .card__link:hover {
