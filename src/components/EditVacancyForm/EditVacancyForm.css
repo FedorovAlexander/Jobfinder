@@ -11,7 +11,7 @@
   padding-bottom: 40px;
   padding-left: 25px;
 
-  color: #56687b;
+  color: #444;
   border: 1px solid lightgrey;
   background-color: #fff;
   box-shadow: 0 0 2px rgba(0.2, 0.2, 0.2, 0.2);
@@ -74,11 +74,9 @@
 }
 
 .edit-vacancy-form__options-block .ui.selection.dropdown {
-  padding-top: 31px;
-
   border-bottom: 1px solid lightgrey;
   padding-top: 15px;
-  margin-top: 19px;
+  margin-top: 17px;
 }
 
 .edit-vacancy-form__buttons-block {
@@ -107,7 +105,6 @@
   border-radius: 3px;
   background: #1FCE6D;
 
-  font-size: 12px;
   font-size: 20px;
 }
 
