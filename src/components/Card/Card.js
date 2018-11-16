@@ -12,7 +12,6 @@ class Card extends Component {
   }
   clickVacancyLink = (e) => {
     this.setState({id: this.state.id})
-    console.log(this.state.id + ' Card Id')
   } 
   render() {
     return (
