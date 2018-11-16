@@ -7,6 +7,7 @@ import PageTitle from '../PageTitle/PageTitle';
 
 import {vacancies} from '../../data/vacancies'
 
+const assets = require('../../assets');
 
 class VacancyContent extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class VacancyContent extends Component {
     return (
       <section className="vacancy-content">
         <PageTitle titleClass="page-title page-title--vacancy" titleText={vacancies[this.state.id].position} />
+        <div className="vacancy-content__links-block">
         <Link 
         className="vacancy-content__company-link" 
         to={{
@@ -31,6 +33,17 @@ class VacancyContent extends Component {
         {vacancies[this.state.id].companyName}
         </div>
         </Link>
+        <Link 
+        className="vacancy-content__company-link" 
+        to={{
+        pathname: "/edit-vacancy",
+        state: {id: this.state.id}
+        }} 
+        >
+        <div className="card__link card__link--company">
+        </div>
+        </Link>
+        </div>
         <h2 className="vacancy-content__desc-title">Job Description</h2>
         <p className="vacancy-content__description">{vacancies[this.state.id].jobDescription}</p>
         <ItemsList id={this.state.id}/>

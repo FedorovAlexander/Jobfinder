@@ -29,12 +29,19 @@
   font-size: 18px;
 }
 
+.vacancy-content__links-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .vacancy-content__desc-title {
   width: 100%;
 }
 
 .vacancy-content__company-link {
-  width: 100%;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 800px) {
