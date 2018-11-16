@@ -4,7 +4,7 @@ import './VacancyPageFooter.css';
 import LinkWithImg from '../LinkWithImg/LinkWithImg';
 const userName = sessionStorage.getItem('login');
 const assets = require('../../assets.js');
-// ({ text }) =>
+
 class VacancyPageFooter extends Component  {
   constructor(props) {
     super()
@@ -12,7 +12,9 @@ class VacancyPageFooter extends Component  {
       id: props.id
     }
   }
-
+  clickEditLink = (e) => {
+    this.setState({id: this.state.id})
+  }
   render() {
     return (
       <footer className="vacancy-page-footer">
@@ -27,6 +29,7 @@ class VacancyPageFooter extends Component  {
           }} 
           >
           <LinkWithImg
+            onClick={this.clickEditLink}
             text='Edit Vacancy'
             textClass="vacancy-page-footer__edit-text"
             imagePath={assets.editIcon}
