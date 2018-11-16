@@ -13,6 +13,7 @@ const assetsObject = {
   salaryIcon: require('./img/money.svg'),
   intIcon: require('./img/question.svg'),
   timeIcon: require('./img/time.svg'),
+  editIcon: require('./img/edit.svg'),
   addIcon: require('./img/plus.svg')
 }
 module.exports = assetsObject
