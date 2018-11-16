@@ -10,11 +10,12 @@ const userName = sessionStorage.getItem('login');
 
 class Chart extends Component {
   constructor(props) {
-    super();
+    super(props);
     this.state = {
         data: props.vacancies,
         pageOfItems: props.vacancies,
-        items: props.vacancies
+        items: props.vacancies,
+        id: props.id
     };
   }
 
@@ -38,5 +39,5 @@ class Chart extends Component {
     </section>);
   }
 }
- 
+  
 export default Chart;
