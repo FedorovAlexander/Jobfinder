@@ -21,7 +21,7 @@ class Vacancy extends Component {
               <div className="vacancy__container">
                 <VacancyContent id={this.props.location.state.id}/>
             </div>
-            <VacancyPageFooter />
+            <VacancyPageFooter id={this.props.location.state.id}/>
           </div>
         </section>
       </div>
