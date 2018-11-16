@@ -20,7 +20,6 @@ export class KanbanBoard extends Component {
               !userName ? <div className="login-page login-page--board"><Link to="/login">Log In</Link> to See Your Job Board</div> :
               <Board editable draggable data={data}/>
             }
-
           </div>
         </div>
       </section>
