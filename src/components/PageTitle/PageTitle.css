@@ -15,6 +15,10 @@
   font-size: 50px;
 }
 
+.page-title--vacancy {
+  font-size: 38px;
+}
+
 @media screen and (max-width: 1080px) {
   .page-title {
     top: -60px;
