@@ -37,7 +37,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 3,
     "companyName": "Elevated Third",
@@ -89,7 +89,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 7,
     "companyName": "Cimpress",
@@ -141,7 +141,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 11,
     "companyName": "Lenovo",
@@ -193,7 +193,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 15,
     "companyName": "ScienceSoft USA Corporation",
@@ -245,7 +245,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 19,
     "companyName": "Orchidkart",
@@ -297,7 +297,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 23,
     "companyName": "Rifiniti",
@@ -349,7 +349,7 @@ export const vacancies = [
     "interesting": true,
     "requiresEducation": false,
     "comment": "test",
-    "status": "denied"
+    "status": "Denied"
   }, {
     "id": 27,
     "companyName": "Timelapse",

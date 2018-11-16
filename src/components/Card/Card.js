@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css';
+const assets = require('../../assets');
 
 class Card extends Component {
   constructor(props) {
@@ -46,11 +47,16 @@ class Card extends Component {
             {this.props.company}
             </div>
           </Link>
+          
         </div>
+          <div className="card__conditions-block">
+            <div className="card__condition card__condition--road"><img className="card__condition-img" src={assets.roadIcon} alt="condition"/>{this.props.roadTime + "m"}</div>
+            <div className="card__condition"><img className="card__condition-img card__condition-img--time" src={assets.timeIcon} alt="condition"/>{Math.floor(this.props.workTime/60) + 'h ' + Math.floor(this.props.workTime/60) + 'm'}</div>
+          </div>
         </div>
         <div className="card__salary-block">
-          <span className="card__salary">{"$" + this.props.salary + "/year"}</span>
-          {/* <span className="card__status">{this.props.vacancyStatus}</span> */}
+          <div className="card__salary">{"$" + this.props.salary + "/year"}</div>
+          <div className="card__status"><img className="card__condition-img card__condition-img--status" src={assets.statusIcon} alt="condition"/>{this.props.vacancyStatus}</div>
         </div>
       </div>
     )

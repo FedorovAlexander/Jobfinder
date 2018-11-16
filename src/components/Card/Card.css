@@ -6,10 +6,10 @@
 
   box-sizing: border-box;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 13px;
   padding-right: 15px;
   padding-bottom: 15px;
-  padding-left: 15px;
+  padding-left: 13px;
 
   letter-spacing: 1px;
 
@@ -60,6 +60,7 @@
 
 .card__position {
   margin-top: 0;
+  margin-bottom: 20px;
 
   text-transform: uppercase;
 
@@ -75,11 +76,13 @@
 
 .card__link--position {
   font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .card__link--company {
   font-size: 18px;
   display: inline-flex;
+  /* margin-bottom: 8px; */
 }
 
 .card__link:hover {
@@ -87,7 +90,8 @@
 }
 
 .card__company {
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
 
 .card__status {
@@ -96,12 +100,50 @@
   font-size: 18px;
 }
 
+.card__conditions-block {
+
+}
+
+.card__condition {
+  margin-top: 0px;
+  margin-right: 20px;
+
+  font-size: 14px;
+
+  display: inline-flex;
+  position: relative;
+}
+
+.card__condition-img--time {
+  margin-top: 15px;
+}
+
+.card__condition-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.card__condition-img--time {
+  /* position: relative; */
+  bottom: 3px;
+}
+
+.card__condition-img--status {
+  position: relative;
+  bottom: -2px;
+}
+
 .card__salary {
   font-size: 22px;
 }
 
 .card__salary-block {
   margin-top: 3.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 800px) {
