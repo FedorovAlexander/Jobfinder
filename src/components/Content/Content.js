@@ -9,10 +9,11 @@ import './Content.css';
 const userName = sessionStorage.getItem('login');
 
 class Content extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-            vacancies
+            vacancies,
+            id: props.id
         }
     }
   changeData(newData) {
