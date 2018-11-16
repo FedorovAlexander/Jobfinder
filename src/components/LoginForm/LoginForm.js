@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import FormButton from '../FormButton/FormButton';
-// import Link from '../Link/Link';
 import {Link} from 'react-router-dom';
 import '../LoginForm/LoginForm.css';
 
