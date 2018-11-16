@@ -12,30 +12,41 @@ class Chart extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        data: props.vacancies,
-        pageOfItems: props.vacancies,
-        items: props.vacancies,
+        data: props.data,
+        pageOfItems: [],
         id: props.id
     };
+    this.onChangePage = this.onChangePage.bind(this);
   }
 
   onChangePage(pageOfItems) {
-    this.setState({pageOfItems: pageOfItems});
+    this.setState({pageOfItems:this.props.vacancies});
+  }
+
+  notFound() {
+    return <div>Results waw not found</div>
   }
 
   render() {
     return (
     <section className="chart">
       <PageTitle titleClass="page-title" titleText="Chart" />
-      {!userName ? <div className="login-page"><Link to="/login">Log In</Link> to See Your Job Chart</div> : this.state.pageOfItems.map((item, index) => (
-        <Card key={Math.random()}
+      {!userName ? 
+      <div className="login-page">
+      <Link to="/login">Log In</Link> 
+      to See Your Job Chart</div> :
+      this.props.vacancies.length ? 
+      this.state.pageOfItems.map((item, index) => (
+        <Card key={index}
           id={item.id}
           position={item.position}
           company={item.companyName}
           salary={item.salary}
-          vacancyStatus={item.status}/>
-      ))}
-      {!userName ? <div></div> :<Pagination onChangePage={this.onChangePage.bind(this)}/>}
+          vacancyStatus={item.status}
+          />
+      )): this.notFound() }
+
+      {!userName ? <div></div> : this.props.data ? <Pagination items={this.props.data} onChangePage={this.onChangePage}/> : "" }
     </section>);
   }
 }

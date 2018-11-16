@@ -8,44 +8,42 @@ import './Filters.css';
 class Filters extends Component {
   constructor(props) {
     super();
-    this.state = {
-        data: props.data,
-        searchfield: ''
-    };
     this.setData = props.setChange.bind(this);
+    this.state = props.pageOfItems
   }
 
-  salaryButtonClick = () => {
+
+  salaryButtonClick = () =>{
+    this.setData(this.props.vacancies.sort((a,b) => {
+        return parseInt(b.salary) - (a.salary)
+    }).concat());
+  };
+
+  worktimeButtonClick = () =>{
     this.setData(this.props.data.sort((a,b) => {
-        return b.salary - a.salary
-    }))
+      return parseInt(a.minutes) - parseInt(b.minutes)
+    }).concat())
 
   };
 
-  worktimeButtonClick = () => {
-    this.setData(this.state.data.sort((a,b) => {
-        return b.minutes - a.minutes
-    }))
-  };
-
-  roadtimeButtonClick = () => {
-    this.setData(this.state.data.sort((a,b) => {
-        return b.roadTime - a.roadTime
-    }))
+  roadtimeButtonClick = () =>{
+    this.setData(this.props.data.sort((a,b) => {
+      return parseInt(b.roadTime) - parseInt(a.roadTime)
+    }).concat())
   };
 
   onSearchChange = (event) => {
-      const filteredData = this.state.data.filter(dataItem => {
+      const filteredData = this.props.filter.filter(dataItem => {
         return dataItem.position.toLowerCase().includes(event.target.value.toLowerCase())
       });
-      if(filteredData.length) this.setData(filteredData);
+      this.setData(filteredData);
     };
 
-  selectStatus = (e, { value}) => {
-    const filteredData = this.state.filter(dataItem => {
-        return value ? dataItem.status.toLowerCase() === value.toLowerCase() : true
-    });
-    this.setData(filteredData)
+  selectStatus = (e, { value }) => {
+      const filteredData = this.props.filter.filter(dataItem => {
+          return value ? dataItem.status.toLowerCase() === value.toLowerCase() : true
+      });
+      this.setData(filteredData)
   };
 
   render() {
@@ -53,9 +51,9 @@ class Filters extends Component {
       <section className="filters">
         <SearchBox searchChange={this.onSearchChange} />
         <h2 className="filters__title">Sort by</h2>
-        <Select selectChange={this.selectStatus}/>
+        <Select selectChange={this.selectStatus.bind(this)}/>
         <div className="filters__buttons-block">
-          <FilterButton buttonClick={this.salaryButtonClick.bind(this)} text="Salary" buttonClass="filters__button" />
+          <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
           <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
           <FilterButton buttonClick={this.roadtimeButtonClick} text="Road Time" buttonClass="filters__button" />
         </div>

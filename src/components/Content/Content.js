@@ -6,13 +6,13 @@ import {vacancies} from '../../data/vacancies'
 
 import './Content.css';
 
-const userName = sessionStorage.getItem('login');
+// const userName = sessionStorage.getItem('login');
 
 class Content extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            vacancies,
+            vacancies: vacancies,
             id: props.id
         }
     }
@@ -27,7 +27,7 @@ class Content extends Component {
         <div className="content__wrapper">
           <div className="content__container">
             <Chart vacancies={this.state.vacancies} />
-            {!userName ? <div></div> :<Filters  data={vacancies}  setChange={this.changeData.bind(this)}/>}
+            <Filters data={this.state.vacancies} filter={vacancies} setChange={this.changeData.bind(this)}/>
           </div>
           <ChartPageFooter />
         </div>
