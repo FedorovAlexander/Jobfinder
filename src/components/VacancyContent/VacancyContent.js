@@ -7,8 +7,6 @@ import PageTitle from '../PageTitle/PageTitle';
 
 import {vacancies} from '../../data/vacancies'
 
-const assets = require('../../assets');
-
 class VacancyContent extends Component {
   constructor(props) {
     super()
