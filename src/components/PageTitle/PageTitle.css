@@ -17,6 +17,7 @@
 
 .page-title--vacancy {
   font-size: 38px;
+  top: -84px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -28,11 +29,11 @@
     font-size: 35px;
   }
   .page-title--vacancy {
-    top: -95px;
+    top: -84px;
 
     color: #fff;
 
-    font-size: 50px;
+    font-size: 33px;
   }
 
   .page-title--company {
