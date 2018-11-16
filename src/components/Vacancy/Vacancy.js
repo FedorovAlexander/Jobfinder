@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../Header/Header';
 import VacancyContent from '../VacancyContent/VacancyContent';
-import Footer from '../Footer/Footer';
+import VacancyPageFooter from '../Footer/VacancyPageFooter';
 import './Vacancy.css';
 
 
@@ -21,7 +21,7 @@ class Vacancy extends Component {
               <div className="vacancy__container">
                 <VacancyContent id={this.props.location.state.id}/>
             </div>
-            <Footer />
+            <VacancyPageFooter />
           </div>
         </section>
       </div>
