@@ -13,6 +13,9 @@ class Card extends Component {
   clickVacancyLink = (e) => {
     this.setState({id: this.state.id})
   } 
+  clickCompanyLink = (e) => {
+    this.setState({id: this.state.id})
+  }
   render() {
     return (
       <div className="card">
@@ -33,7 +36,12 @@ class Card extends Component {
             </Link>
           </h2>
         <div className="card__company">
-          <Link to="/company">
+          <Link onClick={this.clickCompanyLink}
+          to={{
+            pathname: "/company",
+            state: {id: this.state.id}
+          }}
+          >
             <div className="card__link card__link--company">
             {this.props.company}
             </div>
