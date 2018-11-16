@@ -1,15 +1,19 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css';
-// { position, company, salary, status, goToVacancy, vacancyStatus }
+
 class Card extends Component {
   constructor(props) {
-    super();
+    super(props);
     this.state = {
-        
+        id: props.id
     };
 
   }
+  clickVacancyLink = (e) => {
+    this.setState({id: this.state.id})
+    console.log(this.state.id + ' Card Id')
+  } 
   render() {
     return (
       <div className="card">
@@ -18,8 +22,13 @@ class Card extends Component {
         </div>
         <div className="card__position-company-block">
           <h2 className="card__position">
-            <Link to="/vacancy/">
-              <div className="card__link card__link--position">
+            <Link onClick={this.clickVacancyLink}
+            to={{
+              pathname: "/vacancy",
+              state: {id: this.state.id}
+            }}
+            >
+              <div className="card__link card__link--position" >
                 {this.props.position}
               </div>
             </Link>
