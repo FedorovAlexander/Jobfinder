@@ -9,12 +9,10 @@ class Filters extends Component {
   constructor(props) {
     super();
     this.setData = props.setChange.bind(this);
-    this.state = props.pageOfItems
   }
 
-
   salaryButtonClick = () =>{
-    this.setData(this.props.vacancies.sort((a,b) => {
+    this.setData(this.props.data.sort((a,b) => {
         return parseInt(b.salary) - (a.salary)
     }).concat());
   };
