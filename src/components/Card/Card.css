@@ -169,6 +169,14 @@
     display: none;
   }
 
+  .card__condition {
+    display: none;
+  }
+
+  .card__status {
+    display: none;
+  }
+
   .card__img-block {
     padding: 20px;
   }
