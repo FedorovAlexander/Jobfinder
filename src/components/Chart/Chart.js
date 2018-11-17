@@ -36,7 +36,7 @@ class Chart extends Component {
       <Link to="/login">Log In</Link> 
       to See Your Job Chart</div> :
       this.props.vacancies.length ? 
-      this.state.pageOfItems.map((item, index) => (
+      this.props.vacancies.map((item, index) => (
         <Card key={index}
           id={item.id}
           position={item.position}
