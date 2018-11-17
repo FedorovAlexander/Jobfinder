@@ -43,6 +43,8 @@ class Chart extends Component {
           company={item.companyName}
           salary={item.salary}
           vacancyStatus={item.status}
+          roadTime={item.roadTime}
+          workTime={item.minutes}
           />
       )): this.notFound() }
 
