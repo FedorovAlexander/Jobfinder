@@ -48,7 +48,7 @@ class Chart extends Component {
           />
       )): this.notFound() }
 
-      {!userName ? <div></div> : this.props.data ? <Pagination items={this.props.data} onChangePage={this.onChangePage}/> : "" }
+      {!userName ? <div></div> : this.props.vacancies ? <Pagination items={this.props.vacancies} onChangePage={this.onChangePage}/> : "" }
     </section>);
   }
 }
