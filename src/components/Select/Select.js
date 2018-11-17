@@ -29,7 +29,7 @@ const Select = ({selectChange}) => (
     placeholder='Status'
     fluid selection clearable
      options={statusOptions}
-     onSelect={selectChange}
+     onChange={selectChange}
     />
 )
 

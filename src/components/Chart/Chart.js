@@ -23,10 +23,16 @@ class Chart extends Component {
   notFound() {
     return <div>Results was not found</div>;
   }
+
   render() {
     return (<section className="chart">
       <PageTitle titleClass="page-title" titleText="Chart" />
-      {!userName ? <div className="login-page"><Link to="/login">Log In</Link> to See Your Job Chart</div> :  this.props.data.length ? this.state.pageOfItems.map((item, index) => (
+      {!userName ? <div className="login-page">
+      <Link to="/login">
+      Log In</Link> 
+      to See Your Job Chart</div> : 
+       this.props.data.length ?
+       this.state.pageOfItems.map((item, index) => (
         <Card key={index}
           position={item.position}
           company={item.companyName}
@@ -35,7 +41,8 @@ class Chart extends Component {
           roadTime={item.roadTime}
           workTime={item.minutes}
         />
-      )) : this.notFound() }
+      )) : this.notFound()
+        }
       {!userName ?
        <div></div> :
         this.props.data ?

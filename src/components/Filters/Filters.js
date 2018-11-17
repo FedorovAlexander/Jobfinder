@@ -37,7 +37,7 @@ class Filters extends Component {
       this.setData(filteredData);
     };
 
-  selectStatus = (e, { value }) => {
+    selectStatus = (e, { value }) => {
       const filteredData = this.props.filter.filter(dataItem => {
           return value ? dataItem.status.toLowerCase() === value.toLowerCase() : true
       });
@@ -48,8 +48,9 @@ class Filters extends Component {
     return (
       <section className="filters">
         <SearchBox searchChange={this.onSearchChange} />
+        {console.log()}
         <h2 className="filters__title">Sort by</h2>
-        <Select selectChange={this.selectStatus.bind(this)}/>
+         <Select selectChange={this.selectStatus.bind(this)}/>
         <div className="filters__buttons-block">
           <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
           <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
