@@ -50,8 +50,18 @@ class Card extends Component {
           
         </div>
           <div className="card__conditions-block">
-            <div className="card__condition card__condition--road"><img className="card__condition-img" src={assets.roadIcon} alt="condition"/>{this.props.roadTime + "m"}</div>
-            <div className="card__condition"><img className="card__condition-img card__condition-img--time" src={assets.timeIcon} alt="condition"/>{Math.floor(this.props.workTime/60) + 'h ' + Math.floor(this.props.workTime/60) + 'm'}</div>
+              <div className="card__condition card__condition--road">
+              <img className="card__condition-img" src={assets.roadIcon} alt="condition"/>
+              <div className="card__condition-text">
+              {this.props.roadTime + "m"}
+              </div>
+            </div>
+            <div className="card__condition">
+              <img className="card__condition-img card__condition-img--time" src={assets.timeIcon} alt="condition"/>
+              <div className="card__condition-text">
+              {Math.floor(this.props.workTime/60) + 'h ' + Math.floor(this.props.workTime/60) + 'm'}
+            </div>
+            </div>
           </div>
         </div>
         <div className="card__salary-block">

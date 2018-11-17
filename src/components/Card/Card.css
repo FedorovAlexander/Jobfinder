@@ -95,13 +95,9 @@
 }
 
 .card__status {
-  margin-bottom: 0;
+  margin-bottom: 7px;
 
   font-size: 18px;
-}
-
-.card__conditions-block {
-
 }
 
 .card__condition {
@@ -112,10 +108,7 @@
 
   display: inline-flex;
   position: relative;
-}
-
-.card__condition-img--time {
-  margin-top: 15px;
+  max-height: 23px;
 }
 
 .card__condition-img {
@@ -125,8 +118,8 @@
 }
 
 .card__condition-img--time {
-  /* position: relative; */
-  bottom: 3px;
+  position: relative;
+  bottom: 4px;
 }
 
 .card__condition-img--status {
