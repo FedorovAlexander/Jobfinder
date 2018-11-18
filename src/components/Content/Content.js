@@ -7,10 +7,11 @@ import {vacancies} from '../../data/vacancies'
 import './Content.css';
 
 class Content extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-            data: vacancies
+            data: vacancies,
+            id: props.id
         }
     }
   changeData(newData) {
@@ -27,6 +28,7 @@ class Content extends Component {
             <Chart data={this.state.data}  />
             <Filters data={this.state.data} filter={vacancies} setChange={this.changeData.bind(this)}/>
           </div>
+          {console.log(this.state.id + ' Content')}
           <ChartPageFooter />
         </div>
       </section>
