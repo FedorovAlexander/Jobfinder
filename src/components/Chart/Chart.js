@@ -14,6 +14,7 @@ class Chart extends Component {
     this.state = {
         data: props.data,
         pageOfItems: [],
+        id: props.id
     };
     this.onChangePage = this.onChangePage.bind(this);
   }
