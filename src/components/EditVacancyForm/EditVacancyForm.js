@@ -84,7 +84,7 @@ class EditVacancyForm extends Component {
   
             <FormButton
               buttonClass="edit-vacancy-form__button edit-vacancy-form__button--cancel"
-              text="Cancel" path=""
+              text="Cancel" path="/chartPage"
             />
           </div>
         </form>
