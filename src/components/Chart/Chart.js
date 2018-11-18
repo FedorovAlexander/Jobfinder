@@ -27,10 +27,11 @@ class Chart extends Component {
 
   render() {
     return (<section className="chart">
-      <PageTitle titleClass="page-title" titleText="Chart" />
-      {!userName ? <div className="login-page">
+      {!userName ? <div></div> : <PageTitle titleClass="page-title" titleText="Chart" />}
+      {!userName ? 
+      <div className="login-page">
       <Link to="/login">
-      Log In</Link> 
+      Log In </Link> 
       to See Your Job Chart</div> : 
        this.props.data.length ?
        this.state.pageOfItems.map((item, index) => (
