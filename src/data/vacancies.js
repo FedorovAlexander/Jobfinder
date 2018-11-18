@@ -4,13 +4,13 @@ export const vacancies = [
     "companyName": "MSBA Boston, MA 02109",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "position": "Web Developer",
-    "jobDescription": "The Web Application Developer is responsible for the architecture, development, testing, and implementation of the Authority’s custom web applications that are both internal and client-facing. Working with the IT team, the Web Application Developer will participate in the full development life cycle to meet the goals and objectives of the MSBA",
+    "jobDescription": "The Web Application Developer is responsible for the architecture, development, ing, and implementation of the Authority’s custom web applications that are both internal and client-facing. Working with the IT team, the Web Application Developer will participate in the full development life cycle to meet the goals and objectives of the MSBA",
     "salary": 90174,
     "minutes": 481,
     "roadTime": 15,
     "interesting": false,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 1,
@@ -23,7 +23,7 @@ export const vacancies = [
     "roadTime": 17,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 2,
@@ -36,33 +36,33 @@ export const vacancies = [
     "roadTime": 40,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 3,
     "companyName": "Elevated Third",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "position": "User Experience Designer",
-    "jobDescription": "As a UX Designer at Elevated Third, you will bring digital strategy to life with conversion-focused experiences designed to make an impact. You also bring energy. You bring curiosity. You care about effectiveness first and use data, testing, and best-practice conventions to make it happen. You believe that if it doesn't work, it isn't good. You have experience with big websites, marketing automation, landing pages, information architecture, conversion funnels, and methodical processes around testing and optimization. At the same time, you are a design nerd who is meticulous about type, margins, layout, interactions and modern design aesthetics.",
+    "jobDescription": "As a UX Designer at Elevated Third, you will bring digital strategy to life with conversion-focused experiences designed to make an impact. You also bring energy. You bring curiosity. You care about effectiveness first and use data, ing, and best-practice conventions to make it happen. You believe that if it doesn't work, it isn't good. You have experience with big websites, marketing automation, landing pages, information architecture, conversion funnels, and methodical processes around ing and optimization. At the same time, you are a design nerd who is meticulous about type, margins, layout, interactions and modern design aesthetics.",
     "salary": 115000,
     "minutes": 501,
     "roadTime": 45,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 4,
     "companyName": "McKesson",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "position": "UX Designer / UI Developer",
-    "jobDescription": "Designs, develops, tests, debugs and implements operating systems components, software tools and utilities. Determines systems software design requirements. Ensures that system improvements are successfully implemented and monitored to increase efficiency. Generates systems software engineering policies, standards and procedures. Design, develop, document, test, and debug new and existing software systems and/or applications for market sale or large-scale proprietary software for internal use. Serve as technical expert on development projects. Participate in full development life cycle including requirements analysis and design. Write technical specifications based on conceptual design and stated business requirements. Support, maintain, and document software functionality. Identify and evaluate new technologies for implementation. Analyze code to find causes of errors and revise programs as needed. Participate in software design meetings and analyze user needs to determine technical requirements. Consult with end user to prototype, refine, test, and debug programs to meet needs",
+    "jobDescription": "Designs, develops, s, debugs and implements operating systems components, software tools and utilities. Determines systems software design requirements. Ensures that system improvements are successfully implemented and monitored to increase efficiency. Generates systems software engineering policies, standards and procedures. Design, develop, document, , and debug new and existing software systems and/or applications for market sale or large-scale proprietary software for internal use. Serve as technical expert on development projects. Participate in full development life cycle including requirements analysis and design. Write technical specifications based on conceptual design and stated business requirements. Support, maintain, and document software functionality. Identify and evaluate new technologies for implementation. Analyze code to find causes of errors and revise programs as needed. Participate in software design meetings and analyze user needs to determine technical requirements. Consult with end user to prototype, refine, , and debug programs to meet needs",
     "salary": 118000,
     "minutes": 601,
     "roadTime": 25,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 5,
@@ -75,7 +75,7 @@ export const vacancies = [
     "roadTime": 17,
     "interesting": false,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 6,
@@ -88,7 +88,7 @@ export const vacancies = [
     "roadTime": 120,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 7,
@@ -101,7 +101,7 @@ export const vacancies = [
     "roadTime": 10,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 8,
@@ -114,7 +114,7 @@ export const vacancies = [
     "roadTime": 12,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 9,
@@ -127,7 +127,7 @@ export const vacancies = [
     "roadTime": 27,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 10,
@@ -140,7 +140,7 @@ export const vacancies = [
     "roadTime": 50,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 11,
@@ -153,7 +153,7 @@ export const vacancies = [
     "roadTime": 41,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 12,
@@ -166,7 +166,7 @@ export const vacancies = [
     "roadTime": 1,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 13,
@@ -179,7 +179,7 @@ export const vacancies = [
     "roadTime": 28,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 14,
@@ -192,7 +192,7 @@ export const vacancies = [
     "roadTime": 30,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 15,
@@ -205,7 +205,7 @@ export const vacancies = [
     "roadTime": 75,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 16,
@@ -218,7 +218,7 @@ export const vacancies = [
     "roadTime": 12,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 17,
@@ -231,7 +231,7 @@ export const vacancies = [
     "roadTime": 18,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 18,
@@ -244,7 +244,7 @@ export const vacancies = [
     "roadTime": 42,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 19,
@@ -257,7 +257,7 @@ export const vacancies = [
     "roadTime": 45,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 20,
@@ -270,7 +270,7 @@ export const vacancies = [
     "roadTime": 15,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 21,
@@ -283,20 +283,20 @@ export const vacancies = [
     "roadTime": 17,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 22,
     "companyName": "Tech Quarry",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "position": "Front End Developer - Angular",
-    "jobDescription": "Become part of a dynamic start up team with multiple offices in Texas! Now hiring for the Austin/Beecave office AND San Antonio (HQ)! Get your hands on the latest technology such as AWS, Docker, Kubernetes and Cloud Native Technologies! Also, work with JIRA, Confluence and Git!",
+    "jobDescription": "Become part of a dynamic start up team with multiple offices in Texas! Now hiring for the Austin/Beecave office AND San Antonio (HQ)! Get your hands on the la technology such as AWS, Docker, Kubernetes and Cloud Native Technologies! Also, work with JIRA, Confluence and Git!",
     "salary": 98000,
     "minutes": 469,
     "roadTime": 40,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 23,
@@ -309,7 +309,7 @@ export const vacancies = [
     "roadTime": 45,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 24,
@@ -322,7 +322,7 @@ export const vacancies = [
     "roadTime": 15,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 25,
@@ -335,7 +335,7 @@ export const vacancies = [
     "roadTime": 17,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }, {
     "id": 26,
@@ -348,20 +348,20 @@ export const vacancies = [
     "roadTime": 40,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Denied"
   }, {
     "id": 27,
     "companyName": "Timelapse",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "position": "WordPress Front-end Developer",
-    "jobDescription": "We are seeking a highly skilled Front End/WordPress web developer to join our team. Candidates will support Timelapse in all areas of the web development lifecycle (development, documentation, testing, and maintenance).",
+    "jobDescription": "We are seeking a highly skilled Front End/WordPress web developer to join our team. Candidates will support Timelapse in all areas of the web development lifecycle (development, documentation, ing, and maintenance).",
     "salary": 40000,
     "minutes": 469,
     "roadTime": 45,
     "interesting": true,
     "requiresEducation": false,
-    "comment": "test",
+    "comment": "",
     "status": "Not Interested"
   }, {
     "id": 28,
@@ -374,7 +374,7 @@ export const vacancies = [
     "roadTime": 15,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Candidate"
   }, {
     "id": 29,
@@ -387,7 +387,7 @@ export const vacancies = [
     "roadTime": 17,
     "interesting": true,
     "requiresEducation": true,
-    "comment": "test",
+    "comment": "",
     "status": "Offer"
   }
 ]
