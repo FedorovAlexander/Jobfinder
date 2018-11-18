@@ -4,6 +4,7 @@ import Select from '../Select/Select';
 import FilterButton from '../FilterButton/FilterButton';
 import './Filters.css';
 
+const userName = sessionStorage.getItem('login');
 
 class Filters extends Component {
   constructor(props) {
@@ -46,16 +47,18 @@ class Filters extends Component {
 
   render() {
     return (
-      <section className="filters">
-        <SearchBox searchChange={this.onSearchChange} />
-        <h2 className="filters__title">Sort by</h2>
-         <Select selectChange={this.selectStatus.bind(this)}/>
-        <div className="filters__buttons-block">
-          <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
-          <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
-          <FilterButton buttonClick={this.roadtimeButtonClick} text="Road Time" buttonClass="filters__button" />
-        </div>
-      </section>
+      <div>{!userName ? <div></div> : 
+        <section className="filters">
+          <SearchBox searchChange={this.onSearchChange} />
+          <h2 className="filters__title">Sort by</h2>
+          <Select selectChange={this.selectStatus.bind(this)}/>
+          <div className="filters__buttons-block">
+            <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
+            <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />
+            <FilterButton buttonClick={this.roadtimeButtonClick} text="Road Time" buttonClass="filters__button" />
+          </div>
+         </section>
+      }</div>
     );
   }
 }
