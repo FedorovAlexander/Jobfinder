@@ -3,10 +3,6 @@ import { Dropdown } from 'semantic-ui-react'
 import './Select.css'
 const statusOptions = [
   {
-    text: 'All',
-    value: 'All'
-  },
-  {
     text: 'Offer',
     value: 'Offer'
   },
