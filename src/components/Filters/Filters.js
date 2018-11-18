@@ -48,7 +48,6 @@ class Filters extends Component {
     return (
       <section className="filters">
         <SearchBox searchChange={this.onSearchChange} />
-        {console.log()}
         <h2 className="filters__title">Sort by</h2>
          <Select selectChange={this.selectStatus.bind(this)}/>
         <div className="filters__buttons-block">
