@@ -19,7 +19,6 @@
   background-color: #fff;
 
   font-family: Lato;
-
   justify-content: flex-start;
 }
 
@@ -76,13 +75,12 @@
 
 .card__link--position {
   font-size: 22px;
-  margin-bottom: 15px;
+  display: inline;
 }
 
 .card__link--company {
   font-size: 18px;
   display: inline-flex;
-  /* margin-bottom: 8px; */
 }
 
 .card__link:hover {
