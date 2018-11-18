@@ -35,6 +35,7 @@ class Chart extends Component {
        this.props.data.length ?
        this.state.pageOfItems.map((item, index) => (
         <Card key={index}
+          id={item.id}
           position={item.position}
           company={item.companyName}
           salary={item.salary}
