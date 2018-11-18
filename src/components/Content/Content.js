@@ -28,7 +28,6 @@ class Content extends Component {
             <Chart data={this.state.data}  />
             <Filters data={this.state.data} filter={vacancies} setChange={this.changeData.bind(this)}/>
           </div>
-          {console.log(this.state.id + ' Content')}
           <ChartPageFooter />
         </div>
       </section>
