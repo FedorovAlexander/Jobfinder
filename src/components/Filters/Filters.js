@@ -51,7 +51,7 @@ class Filters extends Component {
         <section className="filters">
           <SearchBox searchChange={this.onSearchChange} />
           <h2 className="filters__title">Sort by</h2>
-          <Select selectChange={this.selectStatus.bind(this)}/>
+          <Select id="select" selectChange={this.selectStatus.bind(this)}/>
           <div className="filters__buttons-block">
             <FilterButton buttonClick={this.salaryButtonClick} text="Salary" buttonClass="filters__button" />
             <FilterButton buttonClick={this.worktimeButtonClick} text="Work Time" buttonClass="filters__button" />

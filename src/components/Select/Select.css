@@ -39,6 +39,10 @@
   box-shadow: none;
 }
 
+.filters #select.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text {
+  color: #444 !important;
+}
+
 .ui.selection.active.dropdown:hover {
   border-left: none;
   border-right: none;
@@ -58,8 +62,6 @@
 .ui.dropdown .menu>.item {
   font-size: 18px;
 }
-
-
 
 .filters .ui.selection.dropdown>.delete.icon, .ui.selection.dropdown>.dropdown.icon, .ui.selection.dropdown>.search.icon {
   top: 18px;
