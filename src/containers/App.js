@@ -22,10 +22,10 @@ class App extends Component {
             <Route path="/chartPage" component={ChartPage} />
             <Route path="/board" component={Board} />
             <Route path="/user" component={User} />
-            <Route path="/vacancy" component={Vacancy} />
+            <Route path="/vacancy/*/:id" render={(props)=> <Vacancy {...props} />} />
             <Route path="/new-vacancy" component={NewVacancy} />
             <Route path="/edit-vacancy" component={EditVacancy} />
-            <Route path="/company" component={Company} />
+            <Route path="/company/*/:id" render={(props)=> <Company {...props} />} />
             <Route path="/login" component={Login} />
             <Route path="/registration" component={Registration} />
             <Route component={Error} />

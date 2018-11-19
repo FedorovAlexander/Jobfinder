@@ -25,9 +25,9 @@ class Card extends Component {
         </div>
         <div className="card__position-company-block">
           <h2 className="card__position">
-            <Link onClick={this.clickVacancyLink}
+          <Link onClick={this.clickVacancyLink}
             to={{
-              pathname: "/vacancy",
+              pathname: `/vacancy/${encodeURI(this.props.position.toLowerCase().replace(/ /g,"_"))}/${this.state.id}`,
               state: {id: this.state.id}
             }}
             >
@@ -38,11 +38,11 @@ class Card extends Component {
           </h2>
         <div className="card__company">
           <Link onClick={this.clickCompanyLink}
-          to={{
-            pathname: "/company",
-            state: {id: this.state.id}
-          }}
-          >
+            to={{
+              pathname: `/company/${encodeURI(this.props.company.toLowerCase().replace(/ /g,"_"))}/${this.state.id}`,
+              state: {id: this.state.id}
+            }}
+            >
             <div className="card__link card__link--company">
             {this.props.company}
             </div>

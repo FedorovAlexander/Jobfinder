@@ -9,7 +9,7 @@ class Vacancy extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      id: props.id
+      id: props.id ? props.id : props.match.params.id
     }
   }
   render() {
