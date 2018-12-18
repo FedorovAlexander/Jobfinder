@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Jobfinder/precache-manifest.d7c92b354f85fd365b350ec51d7c6d83.js"
+  "/Jobfinder/precache-manifest.51e5f7a108886cc44c0ba776ed409a2b.js"
 );
 
 workbox.clientsClaim();
