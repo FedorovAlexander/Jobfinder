@@ -1,14 +1,14 @@
 {
   "main.css": "/Jobfinder/static/css/main.33278b92.chunk.css",
-  "main.js": "/Jobfinder/static/js/main.4cc95a36.chunk.js",
-  "main.js.map": "/Jobfinder/static/js/main.4cc95a36.chunk.js.map",
+  "main.js": "/Jobfinder/static/js/main.095874c0.chunk.js",
+  "main.js.map": "/Jobfinder/static/js/main.095874c0.chunk.js.map",
   "static/css/1.1188dd64.chunk.css": "/Jobfinder/static/css/1.1188dd64.chunk.css",
   "static/js/1.1faba695.chunk.js": "/Jobfinder/static/js/1.1faba695.chunk.js",
   "static/js/1.1faba695.chunk.js.map": "/Jobfinder/static/js/1.1faba695.chunk.js.map",
   "runtime~main.js": "/Jobfinder/static/js/runtime~main.9d4ede9f.js",
   "runtime~main.js.map": "/Jobfinder/static/js/runtime~main.9d4ede9f.js.map",
   "static/media/board.svg": "/Jobfinder/static/media/board.622ab7f5.svg",
-  "static/media/semantic.min.css": "/Jobfinder/static/media/icons.0ab54153.woff2",
+  "static/media/semantic.min.css": "/Jobfinder/static/media/icons.8e3c7f55.eot",
   "static/media/logout.svg": "/Jobfinder/static/media/logout.2107aeec.svg",
   "static/media/trello.svg": "/Jobfinder/static/media/trello.6cac7649.svg",
   "static/media/dog.svg": "/Jobfinder/static/media/dog.41d85153.svg",
@@ -28,6 +28,6 @@
   "static/css/main.33278b92.chunk.css.map": "/Jobfinder/static/css/main.33278b92.chunk.css.map",
   "static/css/1.1188dd64.chunk.css.map": "/Jobfinder/static/css/1.1188dd64.chunk.css.map",
   "index.html": "/Jobfinder/index.html",
-  "precache-manifest.5f62482db58885be0e3d43b09c404032.js": "/Jobfinder/precache-manifest.5f62482db58885be0e3d43b09c404032.js",
+  "precache-manifest.8447f1a9df1887422af600c78f72b583.js": "/Jobfinder/precache-manifest.8447f1a9df1887422af600c78f72b583.js",
   "service-worker.js": "/Jobfinder/service-worker.js"
 }
