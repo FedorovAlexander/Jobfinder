@@ -30,7 +30,7 @@ class Chart extends Component {
       {!userName ? <div></div> : <PageTitle titleClass="page-title" titleText="Chart" />}
       {!userName ? 
       <div className="login-page">
-      <Link to="/login">
+      <Link to="login">
       Log In </Link> 
       to See Your Job Chart</div> : 
        this.props.data.length ?
