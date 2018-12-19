@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
-    "revision": "0fa2c97174429df77006",
+    "revision": "7de7fecebd5fad77ef37",
     "url": "/Jobfinder/static/css/main.33278b92.chunk.css"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/Jobfinder/static/media/outline-icons.701ae6ab.eot"
-  },
-  {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
     "url": "/Jobfinder/static/media/icons.b87b9ba5.ttf"
+  },
+  {
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/Jobfinder/static/media/outline-icons.701ae6ab.eot"
   },
   {
     "revision": "cd6c777f1945164224dee082abaea03a",
@@ -60,24 +60,24 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/media/outline-icons.82f60bd0.svg"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/Jobfinder/static/media/brand-icons.13db00b7.eot"
-  },
-  {
     "revision": "962a1bf31c081691065fe333d9fa8105",
     "url": "/Jobfinder/static/media/icons.962a1bf3.svg"
   },
   {
-    "revision": "e8c322de9658cbeb8a774b6624167c2c",
-    "url": "/Jobfinder/static/media/brand-icons.e8c322de.woff2"
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/Jobfinder/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "a046592bac8f2fd96e994733faf3858c",
     "url": "/Jobfinder/static/media/brand-icons.a046592b.woff"
   },
   {
-    "revision": "0fa2c97174429df77006",
-    "url": "/Jobfinder/static/js/main.0fa2c971.chunk.js"
+    "revision": "e8c322de9658cbeb8a774b6624167c2c",
+    "url": "/Jobfinder/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "7de7fecebd5fad77ef37",
+    "url": "/Jobfinder/static/js/main.7de7fece.chunk.js"
   },
   {
     "revision": "a1a749e89f578a49306ec2b055c073da",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/css/1.1188dd64.chunk.css"
   },
   {
-    "revision": "36675baa836fa87e70d6bb46391c527a",
+    "revision": "4824b5bbdc8f3abed6274f385a8b04d2",
     "url": "/Jobfinder/index.html"
   }
 ];

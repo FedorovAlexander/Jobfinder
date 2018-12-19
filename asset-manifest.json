@@ -1,7 +1,7 @@
 {
   "main.css": "/Jobfinder/static/css/main.33278b92.chunk.css",
-  "main.js": "/Jobfinder/static/js/main.0fa2c971.chunk.js",
-  "main.js.map": "/Jobfinder/static/js/main.0fa2c971.chunk.js.map",
+  "main.js": "/Jobfinder/static/js/main.7de7fece.chunk.js",
+  "main.js.map": "/Jobfinder/static/js/main.7de7fece.chunk.js.map",
   "static/css/1.1188dd64.chunk.css": "/Jobfinder/static/css/1.1188dd64.chunk.css",
   "static/js/1.1faba695.chunk.js": "/Jobfinder/static/js/1.1faba695.chunk.js",
   "static/js/1.1faba695.chunk.js.map": "/Jobfinder/static/js/1.1faba695.chunk.js.map",
@@ -25,9 +25,9 @@
   "static/media/edit.svg": "/Jobfinder/static/media/edit.06610df8.svg",
   "static/media/plus.svg": "/Jobfinder/static/media/plus.0b0abd19.svg",
   "static/media/EditVacancy.css": "/Jobfinder/static/media/floor.e928ddbc.jpg",
-  "static/css/1.1188dd64.chunk.css.map": "/Jobfinder/static/css/1.1188dd64.chunk.css.map",
   "static/css/main.33278b92.chunk.css.map": "/Jobfinder/static/css/main.33278b92.chunk.css.map",
+  "static/css/1.1188dd64.chunk.css.map": "/Jobfinder/static/css/1.1188dd64.chunk.css.map",
   "index.html": "/Jobfinder/index.html",
-  "precache-manifest.413879b4f6f4751f31b91f986464709a.js": "/Jobfinder/precache-manifest.413879b4f6f4751f31b91f986464709a.js",
+  "precache-manifest.70db4870ea00a5c2c1cd28c9a73033e1.js": "/Jobfinder/precache-manifest.70db4870ea00a5c2c1cd28c9a73033e1.js",
   "service-worker.js": "/Jobfinder/service-worker.js"
 }
