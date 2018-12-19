@@ -36,9 +36,9 @@ class LoginForm extends Component {
             <FormButton
               onSubmit
               buttonClass="log-form__sumbit"
-              text="Submit" path="/chartPage"
+              text="Submit" path={process.env.PUBLIC_URL + '/chartPage'}
             />
-            <Link to='/registration'><div className="log-form__forgot">Do not have an account?</div></Link> 
+            <Link to={process.env.PUBLIC_URL + '/registration'}><div className="log-form__forgot">Do not have an account?</div></Link> 
           </form>
 
         </section>

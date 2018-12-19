@@ -15,7 +15,7 @@ import Error from '../components/Error/Error';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <>
           <Switch>
             <Route path="/" component={ChartPage} exact />

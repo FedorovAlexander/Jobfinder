@@ -49,9 +49,9 @@ class RegistrationForm extends Component {
   
             <FormButton
               buttonClass="reg-form__sumbit"
-              text="Submit" path="/chartPage"
+              text="Submit" path={process.env.PUBLIC_URL + "/chartPage"}
             />
-            <Link to='/login'><div className="log-form__forgot">Already have an account?</div></Link>
+            <Link to={process.env.PUBLIC_URL + '/login'}><div className="log-form__forgot">Already have an account?</div></Link>
           </form>
   
         </section>
