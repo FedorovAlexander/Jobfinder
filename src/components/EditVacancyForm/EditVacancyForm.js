@@ -79,12 +79,12 @@ class EditVacancyForm extends Component {
           <div className="edit-vacancy-form__buttons-block">
             <FormButton
               buttonClass="edit-vacancy-form__button edit-vacancy-form__button--submit"
-                text="Edit" path={process.env.PUBLIC_URL + "/chartPage"}
+                text="Edit" path={process.env.PUBLIC_URL + "/"}
             />
   
             <FormButton
               buttonClass="edit-vacancy-form__button edit-vacancy-form__button--cancel"
-              text="Cancel" path={process.env.PUBLIC_URL + "/chartPage"}
+              text="Cancel" path={process.env.PUBLIC_URL + "/"}
             />
           </div>
         </form>

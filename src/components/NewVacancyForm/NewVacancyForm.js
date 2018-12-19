@@ -66,12 +66,12 @@ const NewVacancyForm = () => {
         <div className="new-vacancy-form__buttons-block">
           <FormButton
             buttonClass="new-vacancy-form__button new-vacancy-form__button--submit"
-            text="Submit" path={process.env.PUBLIC_URL + "/chartPage"}
+            text="Submit" path={process.env.PUBLIC_URL + "/"}
           />
 
           <FormButton
             buttonClass="new-vacancy-form__button new-vacancy-form__button--cancel"
-            text="Cancel" path={process.env.PUBLIC_URL + "/chartPage"}
+            text="Cancel" path={process.env.PUBLIC_URL + "/"}
           />
         </div>
       </form>
