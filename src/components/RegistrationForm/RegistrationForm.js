@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import CustomCheckbox from '../CustomCheckbox/CustomCheckbox';
 import FormButton from '../FormButton/FormButton';
 import {Link} from 'react-router-dom';
@@ -20,23 +19,22 @@ class RegistrationForm extends Component {
       <div>
         <section className="reg-form">
           <h1 className="reg-form__title">Sign Up</h1>
-          <form onSubmit={this.handleSubmit} action="/chartPage">
-            <InputWithLabel
-              type="text"
-              name="username"
-              placeholder="Username"
-              inputClass="input-with-label input-with-label--login-reg" />
-            <InputWithLabel
-              type="email"
-              name="email"
-              placeholder="Email"
-              inputClass="input-with-label input-with-label--login-reg"
-            />
-            <InputWithLabel
-            type="password"
-            name="password"
+          <form ref={this.form} onSubmit={this.handleSubmit} action="/chartPage" className="log-form__form">
+          <input 
+            placeholder="Username"
+            className="log-form__input"
+            required
+          />
+          <input 
+            placeholder="Email"
+            className="log-form__input"
+            required
+          />
+          <input 
             placeholder="Password"
-            inputClass="input-with-label input-with-label--login-reg"
+            className="log-form__input"
+            type="password"
+            required
           />
             <CustomCheckbox
               blockClass="reg-form__checkbox"

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InputWithLabel from '../InputWithLabel/InputWithLabel';
 import FormButton from '../FormButton/FormButton';
 import {Link} from 'react-router-dom';
 import '../LoginForm/LoginForm.css';
@@ -7,11 +6,16 @@ import '../LoginForm/LoginForm.css';
 class LoginForm extends Component {
   constructor() {
     super();
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.form = React.createRef();
+    this.validate = this.validate.bind(this);
   }
 
   handleSubmit(event) {
     sessionStorage.setItem('login', event.target[0].value)
+  }
+
+  validate() {
+    return this.form.current.reportValidity();
   }
 
   render() {
@@ -20,19 +24,18 @@ class LoginForm extends Component {
       <div>
         <section className="log-form">
           <h1 className="log-form__title">Log In</h1>
-          <form onSubmit={this.handleSubmit} action="/">
-            <InputWithLabel
-              type="text"
-              name="login"
-              placeholder="Login"
-              inputClass="input-with-label input-with-label--login-reg"
-            />
-            <InputWithLabel
-              type="password"
-              name="password"
-              placeholder="Password" inputClass="input-with-label input-with-label--login-reg"
-            />
-
+          <form ref={this.form} onSubmit={this.handleSubmit} className="log-form__form" >
+          <input 
+            placeholder="Login"
+            className="log-form__input"
+            required
+          />
+          <input 
+            placeholder="Password"
+            className="log-form__input"
+            type="password"
+            required
+          />
             <FormButton
               onSubmit
               buttonClass="log-form__sumbit"
