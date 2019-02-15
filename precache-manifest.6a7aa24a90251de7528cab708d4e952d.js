@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/media/brand-icons.c5ebe0b3.ttf"
   },
   {
-    "revision": "7de7fecebd5fad77ef37",
-    "url": "/Jobfinder/static/css/main.33278b92.chunk.css"
+    "revision": "19588c659abf08308a3a",
+    "url": "/Jobfinder/static/css/main.d1e6f21e.chunk.css"
   },
   {
     "revision": "e928ddbc6d874b167d5398b173571299",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/media/icons.0ab54153.woff2"
   },
   {
-    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
-    "url": "/Jobfinder/static/media/icons.8e3c7f55.eot"
-  },
-  {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/Jobfinder/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
+    "url": "/Jobfinder/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "b87b9ba532ace76ae9f6edfe9f72ded2",
@@ -68,16 +68,16 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/media/brand-icons.13db00b7.eot"
   },
   {
-    "revision": "a046592bac8f2fd96e994733faf3858c",
-    "url": "/Jobfinder/static/media/brand-icons.a046592b.woff"
-  },
-  {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/Jobfinder/static/media/brand-icons.e8c322de.woff2"
   },
   {
-    "revision": "7de7fecebd5fad77ef37",
-    "url": "/Jobfinder/static/js/main.7de7fece.chunk.js"
+    "revision": "a046592bac8f2fd96e994733faf3858c",
+    "url": "/Jobfinder/static/media/brand-icons.a046592b.woff"
+  },
+  {
+    "revision": "19588c659abf08308a3a",
+    "url": "/Jobfinder/static/js/main.19588c65.chunk.js"
   },
   {
     "revision": "a1a749e89f578a49306ec2b055c073da",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/Jobfinder/static/css/1.1188dd64.chunk.css"
   },
   {
-    "revision": "4824b5bbdc8f3abed6274f385a8b04d2",
+    "revision": "468171ea7b483038d68361d7066f7771",
     "url": "/Jobfinder/index.html"
   }
 ];
